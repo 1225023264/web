@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import 'sassConfig';
+.color-main { color: $color-main; }
+.color-second { color: $color-second; }
+.text-main { color: $text-main; }
+
+.container { 
+    width: $container;
+    margin: 0 auto;
+    background-color: #000;
+    color: white;
+}
+
+
+// 每个空格都是一个花括号做嵌套 不要超过三层 否则对性能消耗很大
+// header .logo .aa .bb {}
+// header .logo { font-size: 12px; }
+
+// header {
+//     .logo {
+//         font-size: 12px;
+//     }
+// }
+
+
+// header > .logo { font-size: 12px; }
+
+// header {
+//     > .logo {
+//         font-size: 12px;
+//     }
+// }
+
+
+// header.logo { font-size: 12px; }
+
+// header {
+//     &.logo {
+//         font-size: 12px;
+//     }
+// }
+
