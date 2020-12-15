@@ -48,7 +48,8 @@
     margin: 0;
     color: #010101;
     font-family: 'Microsoft YaHei';
-    font-weight: bold;
+    font-size: 12px;
+    /* font-weight: bold; */
   }
   
   /**
@@ -98,6 +99,7 @@
   
   a {
     background-color: transparent;
+    text-decoration: none;
   }
   
   /**

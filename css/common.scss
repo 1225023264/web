@@ -7,16 +7,79 @@
 .container { 
     width: $container;
     margin: 0 auto;
-    background-color: red;
-    color: white;
 }
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
 // header
 .logo {
-    float: left;
+    // float: left;
     margin-top: 30px;
     margin-bottom: 30px;
     img {display: block;}
 }
+
+// 顶部的菜单
+.menu-link {
+    line-height: 22px;
+    a, span, div { float: right; }
+    a { color: $text-gray;}
+    span {
+        width: 1px;
+        height: 12px;
+        margin: 6px 11px 0;
+        background-color: #cfcfcf;
+    }
+}
+
+// 语言菜单
+.lang {
+    width: 53px;
+    height: 22px;
+    background-color: #ececec;
+    color: $text-gray;
+    text-align: center;
+    i {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        margin: 0 0 2px 2px;
+        // background-image: url(../images/icon-lang-arrow.png);
+        // background-repeat: no-repeat;
+        // background-color: #fff;
+        // background-position: top;
+
+        // background: url(../images/icon-lang-arrow.png) no-repeat top #fff;
+        // background: url(../images/icon-lang-arrow.png) no-repeat;
+
+        // border-left-width: 1px;
+        // border-left-color: #000;
+        // border-left-style: solid;
+
+        // border-bottom-width: 1px;
+        // border-bottom-color: #000;
+        // border-bottom-style: solid;
+
+        border-left: 1px solid #b5b5b5;
+        border-bottom: 1px solid #b5b5b5;
+
+        // Css3 只计算本身元素像素px
+        @include webkit(box-sizing, border-box);
+        // -webkit-box-sizing: border-box;
+        // -moz-box-sizing: border-box;
+        // -ms-box-sizing: border-box;
+        // -o-box-sizing: border-box;
+        // box-sizing: border-box;
+        // Css3 旋转调整角度
+        @include webkit(transform, rotate(-45deg));
+        // transform: rotate(-45deg);
+    }
+}
+
+// .top-menu {
+//     float: right;
+// }
 
 // clearfix 清除浮动
 .clearfix:after {
