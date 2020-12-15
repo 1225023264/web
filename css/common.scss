@@ -7,10 +7,28 @@
 .container { 
     width: $container;
     margin: 0 auto;
-    background-color: #000;
+    background-color: red;
     color: white;
 }
+// header
+.logo {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    img {display: block;}
+}
 
+// clearfix 清除浮动
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
 
 // 每个空格都是一个花括号做嵌套 不要超过三层 否则对性能消耗很大
 // header .logo .aa .bb {}
