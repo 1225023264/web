@@ -64,7 +64,7 @@
     ul { 
         display: none;
         position: absolute;
-        z-index: 10;
+        z-index: 10;  // 设置层级关系
         top: 100%;
         right: 0;
         width: 95px;
