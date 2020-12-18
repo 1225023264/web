@@ -40,46 +40,21 @@
     background-color: #ececec;
     color: $text-gray;
     text-align: center;
-    i {
+    &::before { content: ''; }
+    &::after { 
+        content: '';
         display: inline-block;
         width: 6px;
         height: 6px;
         margin: 0 0 2px 2px;
-        // background-image: url(../images/icon-lang-arrow.png);
-        // background-repeat: no-repeat;
-        // background-color: #fff;
-        // background-position: top;
-
-        // background: url(../images/icon-lang-arrow.png) no-repeat top #fff;
-        // background: url(../images/icon-lang-arrow.png) no-repeat;
-
-        // border-left-width: 1px;
-        // border-left-color: #000;
-        // border-left-style: solid;
-
-        // border-bottom-width: 1px;
-        // border-bottom-color: #000;
-        // border-bottom-style: solid;
-
         border-left: 1px solid #b5b5b5;
         border-bottom: 1px solid #b5b5b5;
-
         // Css3 只计算本身元素像素px
         @include webkit(box-sizing, border-box);
-        // -webkit-box-sizing: border-box;
-        // -moz-box-sizing: border-box;
-        // -ms-box-sizing: border-box;
-        // -o-box-sizing: border-box;
-        // box-sizing: border-box;
         // Css3 旋转调整角度
         @include webkit(transform, rotate(-45deg));
-        // transform: rotate(-45deg);
     }
 }
-
-// .top-menu {
-//     float: right;
-// }
 
 // clearfix 清除浮动
 .clearfix:after {
@@ -92,32 +67,3 @@
 .clearfix { display: inline-block; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
-
-// 每个空格都是一个花括号做嵌套 不要超过三层 否则对性能消耗很大
-// header .logo .aa .bb {}
-// header .logo { font-size: 12px; }
-
-// header {
-//     .logo {
-//         font-size: 12px;
-//     }
-// }
-
-
-// header > .logo { font-size: 12px; }
-
-// header {
-//     > .logo {
-//         font-size: 12px;
-//     }
-// }
-
-
-// header.logo { font-size: 12px; }
-
-// header {
-//     &.logo {
-//         font-size: 12px;
-//     }
-// }
-
