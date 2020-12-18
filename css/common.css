@@ -24,6 +24,8 @@
     display: block; }
 
 .menu-link {
+  margin-top: 7px;
+  margin-bottom: 21px;
   line-height: 22px; }
   .menu-link a, .menu-link span, .menu-link div {
     float: right; }
@@ -67,6 +69,7 @@
   .lang ul {
     display: none;
     position: absolute;
+    z-index: 10;
     top: 100%;
     right: 0;
     width: 95px;
@@ -80,6 +83,34 @@
     .lang a:hover {
       color: #21b8c6;
       background-color: #e0e0e0; }
+
+nav > ul > li {
+  float: left; }
+  nav > ul > li > a {
+    color: #000;
+    font-weight: bold; }
+  nav > ul > li:hover a, nav > ul > li.current a {
+    background-color: #f5f5f5; }
+nav ul ul {
+  display: none;
+  position: absolute;
+  margin-top: 17px; }
+  nav ul ul a {
+    height: 41px;
+    color: #000;
+    line-height: 41px; }
+    nav ul ul a:hover {
+      background-color: #eaeaea; }
+nav li {
+  position: relative; }
+  nav li:hover > ul {
+    display: block; }
+  nav li a {
+    display: block;
+    width: 114px;
+    height: 53px;
+    text-align: center;
+    line-height: 53px; }
 
 .clearfix:after {
   content: ".";
