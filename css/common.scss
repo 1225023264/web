@@ -188,37 +188,29 @@ body > footer {
         height: 30px;
         margin-right: 24px;
         background-color: #a0a0a0;
+        // 伪元素制作图标
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+        // font-size: 14px;
         // 圆角
         border-radius: 100px;
         &:hover {
-            p { display: block; }
+            p { 
+                // display: block;
+                visibility: visible;
+                bottom: 130%;
+                opacity: 1;
+                filter: alpha(opacity = 100);
+            }
         }
-    }   // css3 伪类选择器的其中一个用法
-    // a:first-child {
-    //     background: url(../images/icon-share.png) no-repeat 0 0 #a0a0a0;
-    //     &:hover {
-    //         background-color: #dc261b;
-    //     }
-    // }
-    // a:nth-child(2) {
-    //     background: url(../images/icon-share.png) no-repeat 0 0 #a0a0a0;
-    // }
-    // a:nth-child(2n) {   // 2*1\2*2\2*3
-    //     background: url(../images/icon-share.png) no-repeat 0 0 #a0a0a0;
-    // }
-    // a:nth-child(3) {
-    //     background: url(../images/icon-share.png) no-repeat -30px 0 #a0a0a0;
-    // }
-    // a:last-child {
-    //     background: url(../images/icon-share.png) no-repeat -30px 0 #a0a0a0;
-    //     &:hover {
-    //         background-color: #3cb035;
-    //     }
-    // }
+    }   
+    .iconfont { font-size: 14px; }
     p {
-        display: none;
+        display: block;
+        visibility: hidden;
         position: absolute;
-        bottom: 130%;
+        bottom: 100%;
         left: 50%;
         width: 80px;
         height: 80px;
@@ -227,9 +219,19 @@ body > footer {
         background-color: #fff;
         // 圆角
         border-radius: 6px;
+        // 透明度
+        opacity: 0;
+        // IE兼容性问题
+        filter: alpha(opacity = 0);
         // box-shadow: (0 0 扩展10px 大小10px #000);
         // css3 投影
         filter: drop-shadow(0 0 10px rgba(0, 0, 0, .16));
+        @include webkit(transition, all 0.3s ease 0s);
+        // transition-property: 规定应用过渡的 CSS 属性的名称。
+        // transition-duration: 定义过渡效果花费的时间。 默认为 0 。
+        // transition-timing-function: 规定过渡效果的时间曲线。 linear匀速 ease逐渐慢下来 ease-in加速 ease-out减速 ease-in-out先加速再减速
+        // transition-delay: 规定过渡效果何时开始。 默认是 0 。
+        // transition: all 1s linear .5s;
         &::after {
             content: '';
             position: absolute;
@@ -260,10 +262,10 @@ body > footer {
 .footer-menu {
     dl {
         float: left;
-        width: 75px;
+        // width: 75px;
         margin-left: 38px;
         img {
-            width: 100%;
+            width: 78px;
             height: 100%;
             margin-bottom: 8px;
             border: 2px solid #fff;
@@ -273,6 +275,7 @@ body > footer {
     }
     dt {
         padding-bottom: 18px;
+        padding-right: 30px;
         margin-bottom: 14px;
         margin-top: 6px;
         border-bottom: 1px solid #c5c5c5;
@@ -284,6 +287,7 @@ body > footer {
         color: #717171;
     }
 }
+
 // clearfix 清除浮动
 .clearfix:after {
     content: ".";
