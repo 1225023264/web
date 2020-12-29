@@ -115,6 +115,8 @@ nav > ul > li {
     display: block; }
   nav > ul > li > ul {
     padding-top: 17px; }
+    nav > ul > li > ul > li {
+      z-index: 10; }
 nav ul ul {
   display: none;
   position: absolute; }
@@ -261,6 +263,29 @@ body > footer {
     height: 10px;
     margin: 0 9px;
     border-left: 1px solid #cfcfcf; }
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(120deg); }
+  70% {
+    transform: rotate(250deg); }
+  100% {
+    transform: rotate(360deg); } }
+.loading-wait {
+  padding: 15px 0;
+  background-color: #f1f1f1;
+  text-align: center;
+  font-weight: normal; }
+  .loading-wait .loading-icon {
+    margin-top: 15px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    animation: loading 1s ease infinite; }
 
 .clearfix:after {
   content: ".";

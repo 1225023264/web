@@ -133,6 +133,10 @@
         </div>
 
         <div class="info-list">
+            <div class="loading-wait"> 
+                加载中
+                <div class="loading-icon"><i class="iconfont icon-jiazai"></i></div>
+            </div>
             <ul class="clearfix">
                 <figure>
                     <img src="images/pic-001.jpg" title="朗朗口腔">
@@ -150,7 +154,7 @@
                     <p>朗朗口腔拥有全球先进口腔诊疗技术，引进国外多款高端的齿科诊疗设备。包括：德国进口种植机...</p>
                 </figure>
             </ul>
-            <a href="" class="more-link">查看更多</a>
+            <a href="" class="more-link" title="查看更多">查看更多</a>
         </div>
     </div>
     <footer>
