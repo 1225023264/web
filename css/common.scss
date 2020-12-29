@@ -171,6 +171,7 @@ body > footer {
         font-size: 24px;
         color: #717171;
         padding-bottom: 31px;
+        // font-weight: normal;
     }
     p {
         font-size: 13px;
@@ -285,6 +286,27 @@ body > footer {
     }
     a {
         color: #717171;
+    }
+}
+
+// 主体内容标题
+.main-column {
+    padding: 90px 0 70px;
+    text-align: center;
+    h4 {
+        font-size: 26px;
+        font-weight: normal;
+    }
+    p {
+        margin-top: 12px;
+        color: $text-gray;
+        text-transform: uppercase;
+    }
+    span {
+        display: inline-block;
+        height: 10px;
+        margin: 0 9px;
+        border-left: 1px solid #cfcfcf;
     }
 }
 
