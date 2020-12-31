@@ -73,6 +73,8 @@
   .info-list p {
     line-height: 22px;
     color: #a0a0a0; }
+  .info-list a {
+    color: #010101; }
 
 .more-link {
   display: block;
@@ -93,5 +95,3 @@
     background-color: #21b8c6;
     color: #fff;
     border-color: #21b8c6; }
-
-/*# sourceMappingURL=main.css.map */

@@ -76,6 +76,7 @@
         line-height: 22px;
         color: $text-gray;
     }
+    a { color: $text-main; }
 }
 .more-link {
     // 内联元素不支持宽高，所以要转成块元素

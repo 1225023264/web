@@ -24,8 +24,8 @@
 <body>
     <div class="container">
         <header class="clearfix">
-            <h1 class="logo pull-left" >
-                <a href="index.html" title="朗朗口腔" target="_blank">
+            <h1 class="logo pull-left">
+                <a href="index.php" title="朗朗口腔" target="_blank">
                     <img src="./images/logo.jpg" alt="朗朗口腔">
                 </a>
             </h1>
@@ -42,12 +42,12 @@
                         <span class="link"></span>
                         <a href="tel:0755-86566573" title="0755-86566573">0755-86566573</a>
                         <span class="link"></span>
-                        <a href="index.html" title="朗朗口腔集团官网">朗朗口腔集团官网</a>
+                        <a href="index.php" title="朗朗口腔集团官网">朗朗口腔集团官网</a>
                     </div>
                     <nav>
                         <ul class="clearfix">
                             <li>
-                                <a href="index.html" title="首页">首页</a>
+                                <a href="index.php" title="首页">首页</a>
                                 <ul>
                                     <li><a href="" title="郎郎简介">郎郎简介</a></li>
                                     <li><a href="" title="郎朗优势">郎朗优势</a></li>
@@ -65,7 +65,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="index.html" title="资讯动态">资讯动态</a>
+                                <a href="index.php" title="资讯动态">资讯动态</a>
                                 <ul>
                                     <li><a href="" title="行业动态">行业动态</a></li>
                                     <li><a href="" title="郎朗资讯">郎朗资讯</a></li>
@@ -74,7 +74,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="index.html" title="合作伙伴">合作伙伴</a>
+                                <a href="index.php" title="合作伙伴">合作伙伴</a>
                                 <ul>
                                     <li><a href="" title="门诊列表">门诊列表</a></li>
                                     <li><a href="" title="门诊详情">门诊详情</a></li>
@@ -82,7 +82,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="index.html" title="辅助功能">辅助功能</a>
+                                <a href="index.php" title="辅助功能">辅助功能</a>
                                 <ul>
                                     <li><a href="" title="公众号指引">公众号指引</a></li>
                                     <li><a href="" title="交通指南">交通指南</a></li>
@@ -91,7 +91,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="index.html" title="联系我们">联系我们</a>
+                                <a href="index.php" title="联系我们">联系我们</a>
                                 <ul>
                                     <li><a href="" title="联系我们">联系我们</a></li>
                                     <li><a href="" title="加入我们">加入我们</a></li>
@@ -126,34 +126,35 @@
         <div class="main-column">
             <h4>朗朗口腔</h4>
             <p>
-                呵护牙齿健康  创造美好未来    
+                呵护牙齿健康 创造美好未来
                 <span></span>
                 care for teeth to create a better future
             </p>
         </div>
-
         <div class="info-list">
-            <div class="loading-wait"> 
+        <div id="infowListWrap">
+            <!-- <div class="loading-wait">
                 加载中
                 <div class="loading-icon"><i class="iconfont icon-jiazai"></i></div>
-            </div>
-            <ul class="clearfix">
+            </div> -->
+        </div>
+            <!-- <ul class="clearfix">
                 <figure>
-                    <img src="images/pic-001.jpg" title="朗朗口腔">
+                    <img src="images/pic-001.jpg" alt="朗朗口腔">
                     <figcaption>朗朗口腔</figcaption>
                     <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty...</p>
                 </figure>
                 <figure>
-                    <img src="images/pic-002.jpg" title="舒适的就诊环境">
+                    <img src="images/pic-002.jpg" alt="舒适的就诊环境">
                     <figcaption>舒适的就诊环境</figcaption>
                     <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的...</p>
                 </figure>
                 <figure>
-                    <img src="images/pic-003.jpg" title="高端的诊疗设备">
+                    <img src="images/pic-003.jpg" alt="高端的诊疗设备">
                     <figcaption>高端的诊疗设备</figcaption>
                     <p>朗朗口腔拥有全球先进口腔诊疗技术，引进国外多款高端的齿科诊疗设备。包括：德国进口种植机...</p>
                 </figure>
-            </ul>
+            </ul> -->
             <a href="" class="more-link" title="查看更多">查看更多</a>
         </div>
     </div>
@@ -225,10 +226,79 @@
                     </ul>
                 </div>
             </div>
-            <div id="copyright">@ 2005  -   2016 朗朗口腔医疗投资有限公司,版权所有 粤ICP各08130115号-1</div>
+            <div id="copyright">@ 2005 - 2016 朗朗口腔医疗投资有限公司,版权所有 粤ICP各08130115号-1</div>
         </div>
     </footer>
-    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
     <script src="js/banner.js"></script>
+    <script>
+        loadingMsg({
+            wrap: 'infowListWrap',
+            message: '加载中',
+            icon:  'icon-jiazai'
+        })
+        $.ajax({
+            url: "./data/index.php", //请求的url地址
+            dataType: "json", //返回格式为json
+            async: true, //请求是否异步，默认为异步，这也是ajax重要特性
+            cache: false, // 是否读取缓存
+            data: {
+                categoryId: 123456
+            }, //参数值
+            type: "POST",   //请求方式 GET明文\POST密文
+            beforeSend: function() {
+                //请求前的处理
+            },
+            success: function(req) {    //请求成功时处理
+                let infoListWrap = document.getElementById('infowListWrap');
+                // console.log(infoListWrap)
+                // 判断数据是否存在
+                if(!req.data || req.data.length === 0){
+                    // console.log(111)
+                    loadingMsg({
+                        wrap: 'infowListWrap',
+                        message: '当前数据为空'
+                    })
+                    // infoListWrap.innerHTML = `<div class="loading-wait">当前没有数据</div>`;
+                    return false
+                }
+                // console.log(req.data)
+                // 字符串
+                // 处理数据
+                let ul = '<ul class="clearfix">'
+                // [data, data, data]
+                req.data.forEach(item=> {
+                    // console.log(item)
+                    ul += `<figure>
+                        <a  href="newsDetail.php?id=${item.id}">
+                        <img src="${item.imgUrl}" alt="${item.title}" title="${item.title}">
+                        <figcaption>${item.title}</figcaption>
+                        <p>${item.dec}</p>
+                        </a>
+                    </figure>`
+                })
+                // ul += `<figure>
+                //         <img src="images/pic-002.jpg" alt="舒适的就诊环境">
+                //         <figcaption>舒适的就诊环境</figcaption>
+                //         <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的...</p>
+                //     </figure>`
+                ul += '</ul>'
+                // 请求成功后处理视图DOM渲染
+                infoListWrap.innerHTML = ul
+                // setTimeout(function() {
+                //     infoListWrap.innerHTML = ul
+                // }, 2000);
+                // console.log(ul)
+            },
+            complete: function() {
+                //请求完成的处理
+            },
+            error: function() {
+                //请求出错处理
+            }
+        });
+    </script>
 </body>
+
 </html>

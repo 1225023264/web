@@ -19,7 +19,7 @@ if($categoryId == 123456){
         array(
             'id' => 12,
             'imgUrl' => 'http://www.web-jshtml.cn/data/upload/45df1dd21f3ae1ds1fd1fdsf.jpg',
-            'title' => '郎朗口腔',
+            'title' => '高端的诊疗设备',
             'dec' => '朗朗口腔拥有全球先进口腔诊疗技术，引进国外多款高端的齿科诊疗设备。包括：德国进口种植机...'
         )
     );
