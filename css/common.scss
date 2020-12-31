@@ -296,7 +296,7 @@ body > footer {
 
 // 主体内容标题
 .main-column {
-    padding: 90px 0 70px;
+    // padding: 90px 0 70px;
     text-align: center;
     h4 {
         font-size: 26px;
@@ -348,3 +348,9 @@ body > footer {
 .clearfix { display: inline-block; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
+
+// for循环定义  padding  偏移值
+@for $i from 1 through 100 {
+    .padding-top-#{$i} { padding-top:(1px * $i); }
+    .padding-bottom-#{$i} { padding-bottom:(1px * $i); }
+}

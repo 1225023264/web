@@ -123,7 +123,9 @@
     </div>
     <!-- 幻灯片 end -->
     <div class="container">
-        <div class="main-column">
+
+        <!-- 朗朗口腔 start -->
+        <div class="main-column padding-top-90 padding-bottom-70">
             <h4>朗朗口腔</h4>
             <p>
                 呵护牙齿健康 创造美好未来
@@ -132,31 +134,27 @@
             </p>
         </div>
         <div class="info-list">
-        <div id="infowListWrap">
-            <!-- <div class="loading-wait">
-                加载中
-                <div class="loading-icon"><i class="iconfont icon-jiazai"></i></div>
-            </div> -->
-        </div>
-            <!-- <ul class="clearfix">
-                <figure>
-                    <img src="images/pic-001.jpg" alt="朗朗口腔">
-                    <figcaption>朗朗口腔</figcaption>
-                    <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的Hello Kitty...</p>
-                </figure>
-                <figure>
-                    <img src="images/pic-002.jpg" alt="舒适的就诊环境">
-                    <figcaption>舒适的就诊环境</figcaption>
-                    <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的...</p>
-                </figure>
-                <figure>
-                    <img src="images/pic-003.jpg" alt="高端的诊疗设备">
-                    <figcaption>高端的诊疗设备</figcaption>
-                    <p>朗朗口腔拥有全球先进口腔诊疗技术，引进国外多款高端的齿科诊疗设备。包括：德国进口种植机...</p>
-                </figure>
-            </ul> -->
+        <div id="infowListWrap"></div>
             <a href="" class="more-link" title="查看更多">查看更多</a>
         </div>
+        <!-- 朗朗口腔 end -->
+
+        <!-- 朗朗公益 start -->
+        <section class="welfare">
+            <header>
+                <div class="main-column  padding-top-53 padding-bottom-53">
+                <h4>朗朗公益</h4>
+                <p>
+                    呵护牙齿健康 创造美好未来
+                    <span></span>
+                    care for teeth to create a better future
+                </p>
+                </div>
+            </header>
+        </section>
+        
+        <!-- 朗朗公益 end -->
+
     </div>
     <footer>
         <div class="container">
@@ -278,11 +276,6 @@
                         </a>
                     </figure>`
                 })
-                // ul += `<figure>
-                //         <img src="images/pic-002.jpg" alt="舒适的就诊环境">
-                //         <figcaption>舒适的就诊环境</figcaption>
-                //         <p>诊所内设有典雅舒适、风格各异的独立诊疗室，如奇趣可爱的儿童诊室、适应女性需求的...</p>
-                //     </figure>`
                 ul += '</ul>'
                 // 请求成功后处理视图DOM渲染
                 infoListWrap.innerHTML = ul
