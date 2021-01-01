@@ -122,11 +122,12 @@
         <span class="slide-next"><i class="iconfont icon-you"></i></span>
     </div>
     <!-- 幻灯片 end -->
+    
     <div class="container">
 
         <!-- 朗朗口腔 start -->
         <div class="main-column padding-top-90 padding-bottom-70">
-            <h4>朗朗口腔</h4>
+            <h3>朗朗口腔</h3>
             <p>
                 呵护牙齿健康 创造美好未来
                 <span></span>
@@ -142,8 +143,8 @@
         <!-- 朗朗公益 start -->
         <section class="welfare">
             <header>
-                <div class="main-column  padding-top-53 padding-bottom-53">
-                <h4>朗朗公益</h4>
+                <div class="main-column padding-top-53 padding-bottom-53">
+                <h3>朗朗公益</h3>
                 <p>
                     呵护牙齿健康 创造美好未来
                     <span></span>
@@ -151,6 +152,58 @@
                 </p>
                 </div>
             </header>
+            <div class="wlefare-wrap clearfix">
+                <div class="row">
+                    <div class="content-big">
+                        <img src="images/pic001.jpg" alt="爱能养老院活动">
+                    </div>
+                    <div class="content-small" style="background-color: #eae9e4;">
+                        <div class="content-dec  padding-top-38">
+                            <h4 class="title">美吉姆早教义诊活动</h4>
+                            <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
+                            <i class="line"></i>
+                            <a href="" class="link-more" title="查看更多">
+                                查看更多
+                                <i class="iconfont icon-iconset0416"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="content-big">
+                        <div class="content-dec padding-top-50">
+                            <h4 class="title">美吉姆早教义诊活动</h4>
+                            <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
+                            <i class="line"></i>
+                            <p class="dec">在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查</p>
+                            <a href="" class="link-more" title="查看更多">
+                                查看更多
+                                <i class="iconfont icon-iconset0416"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-small">
+                        <img src="images/pic002.jpg" alt="美吉姆早教义诊活动">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="content-small">
+                        <img src="images/pic003.jpg" alt="">
+                    </div>
+                    <div class="content-big color-white" style="background-color: #e03854;">
+                        <div class="content-dec padding-top-46">
+                            <h4 class="title">商业城公益捐赠活动</h4>
+                            <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
+                            <i class="line"></i>
+                            <p class="dec">朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽</p>
+                            <a href="" class="link-more" title="查看更多">
+                                查看更多
+                                <i class="iconfont icon-iconset0416"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         
         <!-- 朗朗公益 end -->

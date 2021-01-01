@@ -100,3 +100,36 @@
 /*  朗朗公益  */
 .welfare header {
   background-color: #efefef; }
+
+.wlefare-wrap .row {
+  float: left;
+  width: 33.33333%; }
+.wlefare-wrap .content-big {
+  height: 380px; }
+.wlefare-wrap .content-small {
+  height: 190px; }
+.wlefare-wrap .content-dec {
+  padding-left: 40px;
+  padding-right: 48px; }
+  .wlefare-wrap .content-dec .title {
+    font-size: 24px; }
+  .wlefare-wrap .content-dec time {
+    display: block;
+    padding: 14px 0 21px;
+    opacity: .5;
+    filter: alpha(opacity=50); }
+  .wlefare-wrap .content-dec .line {
+    display: block;
+    width: 38px;
+    border-bottom: 1px solid #cccccc; }
+  .wlefare-wrap .content-dec .dec {
+    margin-top: 33px;
+    line-height: 24px; }
+  .wlefare-wrap .content-dec .link-more {
+    margin-top: 16px; }
+.wlefare-wrap .color-white .title, .wlefare-wrap .color-white time, .wlefare-wrap .color-white .dec, .wlefare-wrap .color-white .link-more {
+  color: #ffffff; }
+.wlefare-wrap .color-white .link-more {
+  border-color: #ffffff; }
+.wlefare-wrap .color-white:hover .link-more {
+  border-color: #21b8c6; }

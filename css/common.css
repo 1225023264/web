@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .color-main {
   color: #21b8c6; }
 
@@ -250,7 +251,7 @@ body > footer {
 
 .main-column {
   text-align: center; }
-  .main-column h4 {
+  .main-column h3 {
     font-size: 26px;
     font-weight: normal; }
   .main-column p {
@@ -285,6 +286,29 @@ body > footer {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
     animation: loading 1s ease infinite; }
+
+/* 查看更多 按钮 */
+.link-more {
+  display: block;
+  width: 92px;
+  height: 29px;
+  border: 1px solid #676767;
+  text-align: center;
+  line-height: 26px;
+  color: #010101;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+  .link-more .iconfont {
+    position: relative;
+    top: 2px;
+    font-weight: 500; }
+  .link-more:hover {
+    background-color: #21b8c6;
+    color: #ffffff;
+    border-color: #21b8c6; }
 
 .clearfix:after {
   content: ".";

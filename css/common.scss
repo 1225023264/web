@@ -298,7 +298,7 @@ body > footer {
 .main-column {
     // padding: 90px 0 70px;
     text-align: center;
-    h4 {
+    h3 {
         font-size: 26px;
         font-weight: normal;
     }
@@ -324,7 +324,6 @@ body > footer {
     // from {transform: rotate(0deg) }
     // to {transform: rotate(360deg) }
 }
-
 .loading-wait {
     padding: 15px 0;
     background-color: #f1f1f1;
@@ -334,6 +333,28 @@ body > footer {
         margin-top: 15px;
         @include webkit(transform, rotate(0deg));
         animation: loading 1s ease infinite;
+    }
+}
+
+/* 查看更多 按钮 */
+.link-more {
+    display: block;
+    width: 92px;
+    height: 29px;
+    border: 1px solid #676767;
+    text-align: center;
+    line-height: 26px;
+    color: #010101;
+    .iconfont {
+        position: relative;
+        top: 2px;
+        font-weight: 500;
+    }
+    @include webkit(transition, all .5s ease 0s);
+    &:hover {
+        background-color: $color-main;
+        color: #ffffff;
+        border-color: $color-main;
     }
 }
 
