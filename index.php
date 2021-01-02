@@ -262,7 +262,7 @@
                 if(!req.data || req.data.length === 0){
                     // console.log(111)
                     loadingMsg({
-                        wrap: 'infowListWrap',
+                        id: 'infowListWrap',
                         message: '当前数据为空'
                     })
                     // infoListWrap.innerHTML = `<div class="loading-wait">当前没有数据</div>`;
