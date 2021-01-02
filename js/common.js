@@ -1,5 +1,5 @@
 function loadingMsg(params){
-    let wrap = document.getElementById('infowListWrap');
+    let wrap = document.getElementById(params.id);
     console.log(params);
     wrap.innerHTML = 
         `<div class="loading-wait">

@@ -105,16 +105,25 @@
     // .main-column { padding: 53px 0; }
 }
 .wlefare-wrap {
-    .row {
-        float: left;
-        width: 33.33333%;
+    display: flex;
+    height: 570px;
+    .row { flex: 1; }
+    .row:last-child {
+        .content-flex-small { order: 1; }
+        .content-flex-big { order: 2; }
     }
-    .content-big { height: 380px; }
-    .content-small { height: 190px; }
+    .content-flex {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    .content-flex-big { flex: 2; }
+    .content-flex-small { flex: 1; }
+    img { display: block; }
     .content-dec {
-        // padding: 42px 48px 0 40px; // 需要调整样式时与UI沟通 不行就只能用拼接的方式
-        padding-left: 40px;
-        padding-right: 48px;
+        padding: 42px 48px 0 40px; // 需要调整样式时与UI沟通 不行就只能用拼接的方式
+        // padding-left: 40px;
+        // padding-right: 48px;
         .title{ font-size: 24px; }
         time {
             display: block;

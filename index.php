@@ -152,57 +152,72 @@
                 </p>
                 </div>
             </header>
-            <div class="wlefare-wrap clearfix">
-                <div class="row">
-                    <div class="content-big">
-                        <img src="images/pic001.jpg" alt="爱能养老院活动">
-                    </div>
-                    <div class="content-small" style="background-color: #eae9e4;">
-                        <div class="content-dec  padding-top-38">
-                            <h4 class="title">美吉姆早教义诊活动</h4>
-                            <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
-                            <i class="line"></i>
-                            <a href="" class="link-more" title="查看更多">
-                                查看更多
-                                <i class="iconfont icon-iconset0416"></i>
-                            </a>
+            <div class="wlefare-wrap" id="welfareWrap">
+                <!-- flex 第一项 start -->
+                <!-- <div class="row">
+                    <div class="content-flex">
+                        <div class="content-flex-big">
+                            <img src="images/pic001.jpg" alt="爱能养老院活动">
+                        </div>
+                        <div class="content-flex-small" style="background-color: #eae9e4;">
+                            <div class="content-dec  padding-top-38">
+                                <h4 class="title">爱能养老院活动</h4>
+                                <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
+                                <i class="line"></i>
+                                <a href="" class="link-more">
+                                    查看更多
+                                    <i class="iconfont icon-iconset0416"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="content-big">
-                        <div class="content-dec padding-top-50">
-                            <h4 class="title">美吉姆早教义诊活动</h4>
-                            <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
-                            <i class="line"></i>
-                            <p class="dec">在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查</p>
-                            <a href="" class="link-more" title="查看更多">
-                                查看更多
-                                <i class="iconfont icon-iconset0416"></i>
-                            </a>
+                </div> -->
+                <!-- flex 第一项 end -->
+
+                <!-- flex 第二项 start -->
+                <!-- <div class="row">
+                    <div class="content-flex">
+                        <div class="content-flex-big">
+                            <div class="content-dec padding-top-50">
+                                <h4 class="title">美吉姆早教义诊活动</h4>
+                                <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
+                                <i class="line"></i>
+                                <p class="dec">在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查</p>
+                                <a href="" class="link-more">
+                                    查看更多
+                                    <i class="iconfont icon-iconset0416"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-flex-small">
+                            <img src="images/pic002.jpg" alt="美吉姆早教义诊活动">
                         </div>
                     </div>
-                    <div class="content-small">
-                        <img src="images/pic002.jpg" alt="美吉姆早教义诊活动">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="content-small">
-                        <img src="images/pic003.jpg" alt="">
-                    </div>
-                    <div class="content-big color-white" style="background-color: #e03854;">
-                        <div class="content-dec padding-top-46">
-                            <h4 class="title">商业城公益捐赠活动</h4>
-                            <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
-                            <i class="line"></i>
-                            <p class="dec">朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽</p>
-                            <a href="" class="link-more" title="查看更多">
-                                查看更多
-                                <i class="iconfont icon-iconset0416"></i>
-                            </a>
+                </div> -->
+                <!-- flex 第二项 end -->
+
+                <!-- flex 第三项 start -->
+                <!-- <div class="row">
+                    <div class="content-flex">
+                        <div class="content-flex-big color-white" style="background-color: #e03854;">
+                            <div class="content-dec padding-top-46">
+                                <h4 class="title">商业城公益捐赠活动</h4>
+                                <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
+                                <i class="line"></i>
+                                <p class="dec">朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽</p>
+                                <a href="" class="link-more">
+                                    查看更多
+                                    <i class="iconfont icon-iconset0416"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-flex-small">
+                            <img src="images/pic003.jpg" alt="商业城公益捐赠活动">
                         </div>
                     </div>
-                </div>
+                </div> -->
+                <!-- flex 第三项 end -->
+
             </div>
         </section>
         
@@ -285,14 +300,14 @@
     <script src="js/banner.js"></script>
     <script>
         loadingMsg({
-            wrap: 'infowListWrap',
+            id: 'infowListWrap',
             message: '加载中',
             icon:  'icon-jiazai'
         })
         $.ajax({
             url: "./data/index.php", //请求的url地址
             dataType: "json", //返回格式为json
-            async: true, //请求是否异步，默认为异步，这也是ajax重要特性
+            async: false, //请求是否异步，默认为异步，这也是ajax重要特性
             cache: false, // 是否读取缓存
             data: {
                 categoryId: 123456
@@ -336,6 +351,79 @@
                 //     infoListWrap.innerHTML = ul
                 // }, 2000);
                 // console.log(ul)
+            },
+            complete: function() {
+                //请求完成的处理
+            },
+            error: function() {
+                //请求出错处理
+            }
+        });
+        $.ajax({
+            url: "./data/index.php", //请求的url地址
+            dataType: "json", //返回格式为json
+            async: false, //请求是否异步，默认为异步，这也是ajax重要特性
+            cache: false, // 是否读取缓存
+            data: {
+                module: 'welfare',
+                categoryId: 10000
+            }, //参数值
+            type: "POST",   //请求方式 GET明文\POST密文
+            beforeSend: function() {
+                //请求前的处理
+            },
+            success: function(req) {    //请求成功时处理
+                // console.log(req.data)
+                let data = req.data
+                let html = ''
+                let welfareWrap = document.getElementById('welfareWrap');
+                // 处理第一个
+                html += `<div class="row">
+                    <div class="content-flex">
+                        <div class="content-flex-big">
+                            <img src="${data[0].imgUrl}" alt="${data[0].title}">
+                        </div>
+                        <div class="content-flex-small" style="background-color: #${data[0].bgColor};">
+                            <div class="content-dec">
+                                <h4 class="title">${data[0].title}</h4>
+                                <time datetime="${data[0].date}" pubdate="${data[0].date}">${data[0].date}</time>
+                                <i class="line"></i>
+                                <a href="" class="link-more">
+                                    查看更多
+                                    <i class="iconfont icon-iconset0416"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+
+                req.data.forEach((item, index) => {
+                    // if(index == 0) { return; }
+                    if(index != 0) {
+                        html += `
+                            <div class="row">
+                                <div class="content-flex">
+                                    <div class="content-flex-big ${item.color}" style="background-color: #${item.bgColor};">
+                                        <div class="content-dec padding-top-50">
+                                            <h4 class="title">${item.title}</h4>
+                                            <time datetime="${item.date}" pubdate="${item.date}">${item.date}</time>
+                                            <i class="line"></i>
+                                            <p class="dec">${item.dec}</p>
+                                            <a href="" class="link-more">
+                                                查看更多
+                                                <i class="iconfont icon-iconset0416"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="content-flex-small">
+                                        <img src="${item.imgUrl}" alt="${item.title}">
+                                    </div>
+                                </div>
+                            </div>`
+                    }
+                })
+
+                welfareWrap.innerHTML = html
             },
             complete: function() {
                 //请求完成的处理
