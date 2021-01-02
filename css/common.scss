@@ -325,6 +325,8 @@ body > footer {
     // to {transform: rotate(360deg) }
 }
 .loading-wait {
+    flex: 1;
+    width: 100%;
     padding: 15px 0;
     background-color: #f1f1f1;
     text-align: center;

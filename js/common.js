@@ -1,6 +1,6 @@
 function loadingMsg(params){
     let wrap = document.getElementById(params.id);
-    console.log(params);
+    // console.log(params.id);
     wrap.innerHTML = 
         `<div class="loading-wait">
             ${params.message}

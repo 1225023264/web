@@ -152,73 +152,7 @@
                 </p>
                 </div>
             </header>
-            <div class="wlefare-wrap" id="welfareWrap">
-                <!-- flex 第一项 start -->
-                <!-- <div class="row">
-                    <div class="content-flex">
-                        <div class="content-flex-big">
-                            <img src="images/pic001.jpg" alt="爱能养老院活动">
-                        </div>
-                        <div class="content-flex-small" style="background-color: #eae9e4;">
-                            <div class="content-dec  padding-top-38">
-                                <h4 class="title">爱能养老院活动</h4>
-                                <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
-                                <i class="line"></i>
-                                <a href="" class="link-more">
-                                    查看更多
-                                    <i class="iconfont icon-iconset0416"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- flex 第一项 end -->
-
-                <!-- flex 第二项 start -->
-                <!-- <div class="row">
-                    <div class="content-flex">
-                        <div class="content-flex-big">
-                            <div class="content-dec padding-top-50">
-                                <h4 class="title">美吉姆早教义诊活动</h4>
-                                <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
-                                <i class="line"></i>
-                                <p class="dec">在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查</p>
-                                <a href="" class="link-more">
-                                    查看更多
-                                    <i class="iconfont icon-iconset0416"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="content-flex-small">
-                            <img src="images/pic002.jpg" alt="美吉姆早教义诊活动">
-                        </div>
-                    </div>
-                </div> -->
-                <!-- flex 第二项 end -->
-
-                <!-- flex 第三项 start -->
-                <!-- <div class="row">
-                    <div class="content-flex">
-                        <div class="content-flex-big color-white" style="background-color: #e03854;">
-                            <div class="content-dec padding-top-46">
-                                <h4 class="title">商业城公益捐赠活动</h4>
-                                <time datetime="2016-09-17" pubdate="2016-09-17 12:00:00">2016-09-17</time>
-                                <i class="line"></i>
-                                <p class="dec">朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽</p>
-                                <a href="" class="link-more">
-                                    查看更多
-                                    <i class="iconfont icon-iconset0416"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="content-flex-small">
-                            <img src="images/pic003.jpg" alt="商业城公益捐赠活动">
-                        </div>
-                    </div>
-                </div> -->
-                <!-- flex 第三项 end -->
-
-            </div>
+            <div class="wlefare-wrap" id="welfareWrap"></div>
         </section>
         
         <!-- 朗朗公益 end -->
@@ -304,6 +238,11 @@
             message: '加载中',
             icon:  'icon-jiazai'
         })
+        loadingMsg({
+            id: 'welfareWrap',
+            message: '加载中',
+            icon:  'icon-jiazai'
+        })
         $.ajax({
             url: "./data/index.php", //请求的url地址
             dataType: "json", //返回格式为json
@@ -373,10 +312,20 @@
                 //请求前的处理
             },
             success: function(req) {    //请求成功时处理
+                let welfareWrap = document.getElementById('welfareWrap');
+                // 判断数据是否存在
+                if(!req.data || req.data.length === 0){
+                    // console.log(111)
+                    loadingMsg({
+                        id: 'welfareWrap',
+                        message: '当前数据为空'
+                    })
+                    // infoListWrap.innerHTML = `<div class="loading-wait">当前没有数据</div>`;
+                    return false
+                }
                 // console.log(req.data)
                 let data = req.data
                 let html = ''
-                let welfareWrap = document.getElementById('welfareWrap');
                 // 处理第一个
                 html += `<div class="row">
                     <div class="content-flex">
