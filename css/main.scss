@@ -99,6 +99,7 @@
 
 /*  朗朗公益  */
 .welfare {
+    margin-bottom: 90px;
     header {
         background-color: #efefef;
     }
@@ -151,5 +152,54 @@
         &:hover {
             .link-more { border-color: $color-main;}
         }
+    }
+}
+
+/*  朗朗医生  */
+.doctor {
+    padding: 90px 0 ;
+    background-color: #f6f6f6;
+    .img {
+        position: relative;
+        float: left;
+    }
+    .content { 
+        margin-left: 565px;
+    }
+}
+.doctor-info {
+    .name {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        height: 48px;
+        padding: 0 28px;
+        margin-top: -24px;
+        background: rgba(0, 0, 0, .2);
+        line-height: 48px;
+        color: #fff;
+        font-size: 18px;
+    }
+    .title {
+        padding: 13px 0 12px;
+        font-size: 18px;
+    }
+    span, p {
+        color: $text-gray;
+    }
+    .line {
+        padding-top: 19px;
+        display: block;
+        width: 38px;
+        border-bottom: 1px solid #c5c5c5;
+    }
+    .dec {
+        padding: 27px 0 22px;
+        line-height: 20px;
+    }
+    .link-more { 
+        margin-left: -13px;
+        border: none;
+        font-weight: bold; 
     }
 }

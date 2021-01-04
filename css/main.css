@@ -98,8 +98,10 @@
     border-color: #21b8c6; }
 
 /*  朗朗公益  */
-.welfare header {
-  background-color: #efefef; }
+.welfare {
+  margin-bottom: 90px; }
+  .welfare header {
+    background-color: #efefef; }
 
 .wlefare-wrap {
   display: flex;
@@ -144,3 +146,42 @@
     border-color: #ffffff; }
   .wlefare-wrap .color-white:hover .link-more {
     border-color: #21b8c6; }
+
+/*  朗朗医生  */
+.doctor {
+  padding: 90px 0;
+  background-color: #f6f6f6; }
+  .doctor .img {
+    position: relative;
+    float: left; }
+  .doctor .content {
+    margin-left: 565px; }
+
+.doctor-info .name {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 48px;
+  padding: 0 28px;
+  margin-top: -24px;
+  background: rgba(0, 0, 0, 0.2);
+  line-height: 48px;
+  color: #fff;
+  font-size: 18px; }
+.doctor-info .title {
+  padding: 13px 0 12px;
+  font-size: 18px; }
+.doctor-info span, .doctor-info p {
+  color: #a0a0a0; }
+.doctor-info .line {
+  padding-top: 19px;
+  display: block;
+  width: 38px;
+  border-bottom: 1px solid #c5c5c5; }
+.doctor-info .dec {
+  padding: 27px 0 22px;
+  line-height: 20px; }
+.doctor-info .link-more {
+  margin-left: -13px;
+  border: none;
+  font-weight: bold; }

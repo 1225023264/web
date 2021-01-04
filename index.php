@@ -122,22 +122,26 @@
         <span class="slide-next"><i class="iconfont icon-you"></i></span>
     </div>
     <!-- 幻灯片 end -->
-    
-    <div class="container">
 
+    <!-- 内容区 start -->
+    <div class="container">
         <!-- 朗朗口腔 start -->
-        <div class="main-column padding-top-90 padding-bottom-70">
-            <h3>朗朗口腔</h3>
-            <p>
-                呵护牙齿健康 创造美好未来
-                <span></span>
-                care for teeth to create a better future
-            </p>
-        </div>
-        <div class="info-list">
-        <div id="infowListWrap"></div>
-            <a href="" class="more-link" title="查看更多">查看更多</a>
-        </div>
+        <section>
+            <header>
+                <div class="main-column padding-top-90 padding-bottom-70">
+                    <h3>朗朗口腔</h3>
+                    <p>
+                        呵护牙齿健康 创造美好未来
+                        <span></span>
+                        care for teeth to create a better future
+                    </p>
+                </div>
+            </header>
+            <div class="info-list">
+                <div id="infowListWrap"></div>
+                <a href="" class="more-link" title="查看更多">查看更多</a>
+            </div>
+        </section>
         <!-- 朗朗口腔 end -->
 
         <!-- 朗朗公益 start -->
@@ -154,10 +158,40 @@
             </header>
             <div class="wlefare-wrap" id="welfareWrap"></div>
         </section>
-        
         <!-- 朗朗公益 end -->
-
     </div>
+    <!-- 医生模块 start -->
+    <section class="doctor">
+        <header class="hide">
+            <div>
+                <h3>朗朗医生</h3>
+                <p>
+                    呵护牙齿健康 创造美好未来
+                    <span></span>
+                    care for teeth to create a better future
+                </p>
+            </div>
+        </header>
+        <div class="container">
+            <div class="doctor-slide-item clearfix doctor-info">
+                <div class="img">
+                    <span class="name">方晓珍</span>
+                    <img src="images/pic004.jpg" alt="方晓珍">
+                </div>
+                <div class="content">
+                    <h4 class="title">牙周主诊医师</h4>
+                    <span class="txt">擅长：仿真陶瓷牙修复、牙周系统治疗、残根残冠的保存治疗等。</span>
+                    <i class="line"></i>
+                    <p class="dec">国内知名大学口腔医学学士，曾就职于高端私人齿科工作室，从事口腔事业10余年，对口腔各类常见疾病的临床治疗积累了丰富经验。积极学习新技术的临床应用，不断进修提升，精通牙体保存治疗。数次参加北京医科大学牙周学习研究项目、香港大学牙周学习研究项目。技术上追求完美，坚持 “微创无痛治疗” 原则，深受患者的信赖！</p>
+                    <a href="" class="link-more border-none">
+                        查看更多
+                        <i class="iconfont icon-iconset0416"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 医生模块 end -->
     <footer>
         <div class="container">
             <div class="clearfix">
@@ -262,7 +296,7 @@
                 if(!req.data || req.data.length === 0){
                     // console.log(111)
                     loadingMsg({
-                        wrap: 'infowListWrap',
+                        id: 'infowListWrap',
                         message: '当前数据为空'
                     })
                     // infoListWrap.innerHTML = `<div class="loading-wait">当前没有数据</div>`;
