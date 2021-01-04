@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./js/swiper/css/swiper.min.css">
     <!-- <link rel="stylesheet" href="./font/font-awesome-4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="./font/iconfont/iconfont.css">
 </head>
@@ -173,22 +174,79 @@
             </div>
         </header>
         <div class="container">
-            <div class="doctor-slide-item clearfix doctor-info">
-                <div class="img">
-                    <span class="name">方晓珍</span>
-                    <img src="images/pic004.jpg" alt="方晓珍">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="doctor-slide-item clearfix doctor-info">
+                            <div class="img">
+                                <span class="name">方晓珍</span>
+                                <img src="images/pic004.jpg" alt="方晓珍">
+                            </div>
+                            <div class="content">
+                                <h4 class="title">牙周主诊医师</h4>
+                                <span class="txt">擅长：仿真陶瓷牙修复、牙周系统治疗、残根残冠的保存治疗等。</span>
+                                <i class="line"></i>
+                                <p class="dec">国内知名大学口腔医学学士，曾就职于高端私人齿科工作室，从事口腔事业10余年，对口腔各类常见疾病的临床治疗积累了丰富经验。积极学习新技术的临床应用，不断进修提升，精通牙体保存治疗。数次参加北京医科大学牙周学习研究项目、香港大学牙周学习研究项目。技术上追求完美，坚持 “微创无痛治疗” 原则，深受患者的信赖！</p>
+                                <a href="" class="link-more border-none">
+                                    查看更多
+                                    <i class="iconfont icon-iconset0416"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="doctor-slide-item clearfix doctor-info">
+                            <div class="img">
+                                <span class="name">方晓珍</span>
+                                <img src="images/pic004.jpg" alt="方晓珍">
+                            </div>
+                            <div class="content">
+                                <h4 class="title">牙周主诊医师</h4>
+                                <span class="txt">擅长：仿真陶瓷牙修复、牙周系统治疗、残根残冠的保存治疗等。</span>
+                                <i class="line"></i>
+                                <p class="dec">国内知名大学口腔医学学士，曾就职于高端私人齿科工作室，从事口腔事业10余年，对口腔各类常见疾病的临床治疗积累了丰富经验。积极学习新技术的临床应用，不断进修提升，精通牙体保存治疗。数次参加北京医科大学牙周学习研究项目、香港大学牙周学习研究项目。技术上追求完美，坚持 “微创无痛治疗” 原则，深受患者的信赖！</p>
+                                <a href="" class="link-more border-none">
+                                    查看更多
+                                    <i class="iconfont icon-iconset0416"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="doctor-slide-item clearfix doctor-info">
+                            <div class="img">
+                                <span class="name">方晓珍</span>
+                                <img src="images/pic004.jpg" alt="方晓珍">
+                            </div>
+                            <div class="content">
+                                <h4 class="title">牙周主诊医师</h4>
+                                <span class="txt">擅长：仿真陶瓷牙修复、牙周系统治疗、残根残冠的保存治疗等。</span>
+                                <i class="line"></i>
+                                <p class="dec">国内知名大学口腔医学学士，曾就职于高端私人齿科工作室，从事口腔事业10余年，对口腔各类常见疾病的临床治疗积累了丰富经验。积极学习新技术的临床应用，不断进修提升，精通牙体保存治疗。数次参加北京医科大学牙周学习研究项目、香港大学牙周学习研究项目。技术上追求完美，坚持 “微创无痛治疗” 原则，深受患者的信赖！</p>
+                                <a href="" class="link-more border-none">
+                                    查看更多
+                                    <i class="iconfont icon-iconset0416"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="content">
-                    <h4 class="title">牙周主诊医师</h4>
-                    <span class="txt">擅长：仿真陶瓷牙修复、牙周系统治疗、残根残冠的保存治疗等。</span>
-                    <i class="line"></i>
-                    <p class="dec">国内知名大学口腔医学学士，曾就职于高端私人齿科工作室，从事口腔事业10余年，对口腔各类常见疾病的临床治疗积累了丰富经验。积极学习新技术的临床应用，不断进修提升，精通牙体保存治疗。数次参加北京医科大学牙周学习研究项目、香港大学牙周学习研究项目。技术上追求完美，坚持 “微创无痛治疗” 原则，深受患者的信赖！</p>
-                    <a href="" class="link-more border-none">
-                        查看更多
-                        <i class="iconfont icon-iconset0416"></i>
-                    </a>
-                </div>
+                <!-- Add Pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+                <!-- Add Arrows -->
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
             </div>
+            <div class="opposite"><div class="swiper-pagination doctor-swiper-pagination"></div></div>
+
+
+        
         </div>
     </section>
     <!-- 医生模块 end -->
@@ -264,8 +322,10 @@
         </div>
     </footer>
     <script src="js/jquery.min.js"></script>
+    <script src="js/swiper/js/swiper.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/banner.js"></script>
+    <script src="js/doctorSwiper.js"></script>
     <script>
         loadingMsg({
             id: 'infowListWrap',

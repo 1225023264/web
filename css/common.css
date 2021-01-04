@@ -30,6 +30,12 @@
 .hide {
   display: none; }
 
+.opposite {
+  position: relative; }
+
+.definitely {
+  position: absolute; }
+
 .logo {
   margin-top: 30px;
   margin-bottom: 30px; }
