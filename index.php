@@ -229,6 +229,7 @@
                                 <i class="line"></i>
                                 <p class="dec">国内知名大学口腔医学学士，曾就职于高端私人齿科工作室，从事口腔事业10余年，对口腔各类常见疾病的临床治疗积累了丰富经验。积极学习新技术的临床应用，不断进修提升，精通牙体保存治疗。数次参加北京医科大学牙周学习研究项目、香港大学牙周学习研究项目。技术上追求完美，坚持 “微创无痛治疗” 原则，深受患者的信赖！</p>
                                 <a href="" class="link-more border-none">
+                                    
                                     查看更多
                                     <i class="iconfont icon-iconset0416"></i>
                                 </a>
@@ -250,6 +251,75 @@
         </div>
     </section>
     <!-- 医生模块 end -->
+
+    
+    <!-- 咨询模块 start -->
+    <div class="container">
+        <section>
+            <header>
+                <div class="main-column padding-top-53 padding-bottom-40">
+                    <h3>资讯动态</h3>
+                    <p>
+                        呵护牙齿健康 创造美好未来
+                        <span></span>
+                        care for teeth to create a better future
+                    </p>
+                </div>
+            </header>
+            <ul class="tab-menu">
+                <a href="" title="行业动态" class="current">行业动态</a><a href="" title="朗朗资讯">朗朗资讯</a><a href="" title="媒体报道">媒体报道</a><a href="" title="公益活动">公益活动</a>
+            </ul>
+            <div class="news-wrap">
+                <div class="box">
+                    <div class="item">
+                        <img src="images/pic005.jpg" alt="朗朗口腔“合赢未来，与资本共...">
+                        <h4 class="title">朗朗口腔“合赢未来，与资本共...</h4>
+                        <time datetime="2016-09-27 12:00:00" pubdate="2016-09-27">2016-09-27</time>
+                        <i class="line"></i>
+                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                        <a href="" class="link-more border-none">
+                            查看更多
+                            <i class="iconfont icon-iconset0416"></i>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <img src="images/pic006.jpg" alt="你的牙齿健康吗？">
+                        <h4 class="title">你的牙齿健康吗？</h4>
+                        <time datetime="2016-09-27 12:00:00" pubdate="2016-09-27">2016-09-27</time>
+                        <i class="line"></i>
+                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                        <a href="" class="link-more border-none">
+                            查看更多
+                            <i class="iconfont icon-iconset0416"></i>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <img src="images/pic007.jpg" alt="重视乳牙的聪明妈妈 才能给孩子...">
+                        <h4 class="title">重视乳牙的聪明妈妈 才能给孩子...</h4>
+                        <time datetime="2016-09-27 12:00:00" pubdate="2016-09-27">2016-09-27</time>
+                        <i class="line"></i>
+                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                        <a href="" class="link-more border-none">
+                            查看更多
+                            <i class="iconfont icon-iconset0416"></i>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <img src="images/pic008.jpg" alt="你的牙齿，藏着你想象不到的讯息">
+                        <h4 class="title">你的牙齿，藏着你想象不到的讯息</h4>
+                        <time datetime="2016-09-27 12:00:00" pubdate="2016-09-27">2016-09-27</time>
+                        <i class="line"></i>
+                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                        <a href="" class="link-more border-none">
+                            查看更多
+                            <i class="iconfont icon-iconset0416"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- 咨询模块 end -->
     <footer>
         <div class="container">
             <div class="clearfix">

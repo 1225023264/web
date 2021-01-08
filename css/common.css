@@ -321,6 +321,23 @@ body > footer {
     color: #ffffff;
     border-color: #21b8c6; }
 
+/* tab-menu */
+.tab-menu {
+  text-align: center; }
+  .tab-menu a {
+    display: inline-block;
+    width: 95px;
+    line-height: 32px;
+    margin: 0 4px;
+    border: 1px solid #e2e2e2;
+    color: #010101;
+    opacity: .8;
+    filter: alpha(opacity=80); }
+    .tab-menu a.current {
+      background-color: #a0a0a0;
+      border-color: #a0a0a0;
+      color: #ffffff; }
+
 .clearfix:after {
   content: ".";
   display: block;

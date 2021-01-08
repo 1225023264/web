@@ -354,6 +354,12 @@ body > footer {
     text-align: center;
     line-height: 26px;
     color: $text-main;
+    // .link-more-plable {
+    //     display: inline-block;
+    //     color: $text-main;
+    //     opacity: 0.8;
+    //     filter: alpha(opacity = 80);
+    // }
     .iconfont {
         position: relative;
         top: 2px;
@@ -365,8 +371,31 @@ body > footer {
         background-color: $color-main;
         color: #ffffff;
         border-color: $color-main;
+        // .link-more-plable { color: #ffffff;}
     }
 }
+
+/* tab-menu */
+.tab-menu {
+    text-align: center;
+    a {
+        display: inline-block;
+        width: 95px;
+        line-height: 32px;
+        margin: 0 4px;
+        border: 1px solid #e2e2e2;
+        color: $text-main;
+        opacity: .8;
+        filter: alpha(opacity = 80);
+        &.current {
+            background-color: $text-gray;
+            // border: 1px solid $text-gray;
+            border-color: $text-gray;
+            color: #ffffff;
+        }
+    }
+}
+
 
 // clearfix 清除浮动
 .clearfix:after {
