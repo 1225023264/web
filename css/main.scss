@@ -221,13 +221,14 @@
 
 /* news-wrap */
 .news-wrap {
+    padding-top: 73px;
+    padding-bottom: 102px;
     overflow: hidden;
     .box {
         display: flex;
         margin-left: -15px;
         margin-right: -15px;
     }
-    padding-bottom: 102px;
     .item { 
         flex: 1; 
         padding: 0 15px;
