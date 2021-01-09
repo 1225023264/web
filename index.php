@@ -266,9 +266,7 @@
                     </p>
                 </div>
             </header>
-            <ul class="tab-menu">
-                <!-- <a href="" title="行业动态" class="current">行业动态</a><a href="" title="朗朗资讯">朗朗资讯</a><a href="" title="媒体报道">媒体报道</a><a href="" title="公益活动">公益活动</a> -->
-            </ul>
+            <ul class="tab-menu"></ul>
             <div class="news-wrap">
                 <div class="box">
                     <div class="item">
