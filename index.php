@@ -267,54 +267,18 @@
                 </div>
             </header>
             <ul class="tab-menu"></ul>
-            <div class="news-wrap">
-                <div class="box">
-                    <div class="item">
-                        <img src="images/pic005.jpg" alt="朗朗口腔“合赢未来，与资本共...">
-                        <h4 class="title">朗朗口腔“合赢未来，与资本共...</h4>
-                        <time datetime="2016-09-27 12:00:00" pubdate="2016-09-27">2016-09-27</time>
-                        <i class="line"></i>
-                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                        <a href="" class="link-more border-none">
-                            查看更多
-                            <i class="iconfont icon-iconset0416"></i>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <img src="images/pic006.jpg" alt="你的牙齿健康吗？">
-                        <h4 class="title">你的牙齿健康吗？</h4>
-                        <time datetime="2016-09-27 12:00:00" pubdate="2016-09-27">2016-09-27</time>
-                        <i class="line"></i>
-                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                        <a href="" class="link-more border-none">
-                            查看更多
-                            <i class="iconfont icon-iconset0416"></i>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <img src="images/pic007.jpg" alt="重视乳牙的聪明妈妈 才能给孩子...">
-                        <h4 class="title">重视乳牙的聪明妈妈 才能给孩子...</h4>
-                        <time datetime="2016-09-27 12:00:00" pubdate="2016-09-27">2016-09-27</time>
-                        <i class="line"></i>
-                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                        <a href="" class="link-more border-none">
-                            查看更多
-                            <i class="iconfont icon-iconset0416"></i>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <img src="images/pic008.jpg" alt="你的牙齿，藏着你想象不到的讯息">
-                        <h4 class="title">你的牙齿，藏着你想象不到的讯息</h4>
-                        <time datetime="2016-09-27 12:00:00" pubdate="2016-09-27">2016-09-27</time>
-                        <i class="line"></i>
-                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                        <a href="" class="link-more border-none">
-                            查看更多
-                            <i class="iconfont icon-iconset0416"></i>
-                        </a>
-                    </div>
+            <!-- 行业动态 -->
+            <div id="tab-content-wrap">
+                <div id="Industry">
                 </div>
+                <!-- 朗朗资讯 -->
+                <div id="information" style="display:none"></div>
+                <!-- 媒体报道 -->
+                <div id="media" style="display:none"></div>
+                <!-- 公益活动 -->
+                <div id="activities" style="display:none"></div>
             </div>
+            
         </section>
     </div>
     <!-- 咨询模块 end -->

@@ -225,13 +225,16 @@
     padding-bottom: 102px;
     overflow: hidden;
     .box {
-        display: flex;
+        // display: flex;
         margin-left: -15px;
         margin-right: -15px;
     }
     .item { 
-        flex: 1; 
+        // flex: 1; 
+        float: left;
+        width: 25%;
         padding: 0 15px;
+        @include webkit(box-sizing, border-box)
     }
     img { 
         width: 100%; 
