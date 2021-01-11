@@ -275,7 +275,7 @@
                 <!-- 媒体报道 -->
                 <div id="media" style="display:none"></div>
                 <!-- 公益活动 -->
-                <!-- <div id="activities" style="display:none"></div> -->
+                <div id="activities" style="display:none"></div>
             </div>
             
         </section>

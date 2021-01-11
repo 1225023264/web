@@ -243,6 +243,7 @@
     .title {
         padding-top: 25px;
         font-size: 18px;
+        @include ell(1);
     }
     time {
         display: block;
@@ -256,9 +257,10 @@
     }
     .dec {
         padding-top: 15px;
-        padding-bottom: 22px;
+        margin-bottom: 22px;
         line-height: 22px;
         color: $text-gray;
+        @include ell(3);
     }
     .link-more {
         opacity: .4;

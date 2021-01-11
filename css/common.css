@@ -338,6 +338,12 @@ body > footer {
       border-color: #a0a0a0;
       color: #ffffff; }
 
+/* 占位图显示 */
+.img-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 .clearfix:after {
   content: ".";
   display: block;
