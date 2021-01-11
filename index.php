@@ -269,14 +269,13 @@
             <ul class="tab-menu"></ul>
             <!-- 行业动态 -->
             <div id="tab-content-wrap">
-                <div id="Industry">
-                </div>
+                <div id="Industry"></div>
                 <!-- 朗朗资讯 -->
                 <div id="information" style="display:none"></div>
                 <!-- 媒体报道 -->
                 <div id="media" style="display:none"></div>
                 <!-- 公益活动 -->
-                <div id="activities" style="display:none"></div>
+                <!-- <div id="activities" style="display:none"></div> -->
             </div>
             
         </section>

@@ -26,7 +26,7 @@ $.ajax({
         data.forEach((item, index) => {
             let className = ''
             if(index === 0) { className = 'current'; }
-            menuHtml += `<a data-request="false" href="javascript: void(0);" onclick="loadNewsData({_this: this, id: ${item.id}, index: ${index}})" class="${className}" title="${item.categoryName}">${item.categoryName}</a>`
+            menuHtml += `<a data-type="${item.type}" data-request="false" href="javascript: void(0);" onclick="loadNewsData({_this: this, id: ${item.id}, index: ${index}})" class="${className}" title="${item.categoryName}">${item.categoryName}</a>`
             // menuHtml += `<a href="javascript: void(0);" onclick="loadNewsData(this, ${item.id})" class="${className}" title="${item.categoryName}">${item.categoryName}</a>`
 
         })
@@ -51,27 +51,42 @@ function loadNewsData(params) {
     // 获取request标识，判断是否已请求成功数据，true为请求成功，false未请求
     let getRequest = params._this.getAttribute('data-request')
     // console.log(getRequet)
+    // 分类类型
+    let categoryType = params._this.getAttribute('data-type')
     // 获取内容区域
     let tabContentWrap = document.getElementById('tab-content-wrap').children;
+    // 当前的内容区
+    let currentContent = null;
     // 获取分类菜单
     let aItem = tagMenu.children;
     // 显示指定的内容区域
     for (let i = 0; i < tabContentWrap.length; i++) {
+        // 隐藏所有的对象
         tabContentWrap[i].style.display = 'none'
+        // 获取ID
+        let id = tabContentWrap[i].id
+        // console.log(id)
+        // 匹配对象
+        if (categoryType === id) {
+            // console.log(id)
+            tabContentWrap[i].style.display = 'block'
+            currentContent = tabContentWrap[i]
+        }
+        
     }
-    tabContentWrap[params.index].style.display = 'block'
+    // tabContentWrap[params.index] && ( tabContentWrap[params.index].style.display = 'block' )
+    // if (tabContentWrap[params.index]) { tabContentWrap[params.index].style.display = 'block' }
+    
     // console.log(tabContentWrap)
     // 分类高光
     
     // 清除所有的高光
-    for(let i = 0; i < aItem.length; i++){
-        aItem[i].className = ''
-    }
+    for(let i = 0; i < aItem.length; i++){ aItem[i].className = '' }
     // 当前栏目高光
     params._this.className = 'current';
 
     // 请求数据
-    if(getRequest === 'true'){ return false }
+    if(getRequest === 'true' || !currentContent){ return false }
     $.ajax({
         url: "./data/indexNews.php", //请求的url地址
         dataType: "json", //返回格式为json
@@ -113,8 +128,10 @@ function loadNewsData(params) {
             });
                     
             itemHtml += `</div></div>`
-
-            tabContentWrap[params.index].innerHTML = itemHtml
+            currentContent && ( currentContent.innerHTML = itemHtml )
+            // tabContentWrap[params.index] && ( tabContentWrap[params.index].innerHTML = itemHtml )
+            // if (tabContentWrap[params.index]) { tabContentWrap[params.index].innerHTML = itemHtml }
+            
             // 请求成功修改标识
             params._this.setAttribute('data-request','true')
 
