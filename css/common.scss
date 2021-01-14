@@ -396,6 +396,40 @@ body > footer {
     }
 }
 
+/* 面包屑 */
+.crumbs {
+    padding: 84px 0;
+    background: url(../images/img.jpg) no-repeat center;
+    color: #ffffff;
+    .colum-title {
+        padding-bottom: 13px;
+        font-size: 30px;
+    }
+    span { padding: 0 5px;}
+    a { color: #ffffff; }
+}
+/* 栏目 */
+.category-menu {
+    border-bottom: 1px solid #f1f1f1;
+    li { 
+        float: left; 
+        padding-right: 18px;
+    }
+    a { 
+        display: block;
+        padding: 0 15px;
+        font-size: 14px;
+        color: $text-main;
+        line-height: 49px;
+        margin-bottom: -1px;
+        // border-bottom: 1px solid $color-main;
+        &.current {
+            color: $color-main;
+            border-bottom: 1px solid $color-main;
+        }
+    }
+}
+
 /* 占位图显示 */ 
 .img-cover {
     background-repeat: no-repeat;

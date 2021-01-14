@@ -23,88 +23,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="clearfix">
-            <h1 class="logo pull-left">
-                <a href="index.php" title="朗朗口腔" target="_blank">
-                    <img src="./images/logo.jpg" alt="朗朗口腔">
-                </a>
-            </h1>
-            <div class="pull-right">
-                <div class="pull-right">
-                    <div class="menu-link clearfix">
-                        <div class="lang">
-                            中文
-                            <ul>
-                                <a href="" title="中文">中文</a>
-                                <a href="" title="英文">英文</a>
-                            </ul>
-                        </div>
-                        <span class="link"></span>
-                        <a href="tel:0755-86566573" title="0755-86566573">0755-86566573</a>
-                        <span class="link"></span>
-                        <a href="index.php" title="朗朗口腔集团官网">朗朗口腔集团官网</a>
-                    </div>
-                    <nav>
-                        <ul class="clearfix">
-                            <li>
-                                <a href="index.php" title="首页">首页</a>
-                                <ul>
-                                    <li><a href="" title="郎郎简介">郎郎简介</a></li>
-                                    <li><a href="" title="郎朗优势">郎朗优势</a></li>
-                                    <li><a href="" title="核心团结">核心团结</a></li>
-                                    <li><a href="" title="郎朗历程">郎朗历程</a></li>
-                                </ul>
-                            </li>
-                            <li class="current">
-                                <a href="" title="走进朗朗">走进朗朗</a>
-                                <ul>
-                                    <li><a href="" title="郎郎简介">郎郎简介</a></li>
-                                    <li><a href="" title="郎朗优势">郎朗优势</a></li>
-                                    <li><a href="" title="企业荣誉">企业荣誉</a></li>
-                                    <li><a href="" title="团队风采">团队风采</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="index.php" title="资讯动态">资讯动态</a>
-                                <ul>
-                                    <li><a href="" title="行业动态">行业动态</a></li>
-                                    <li><a href="" title="郎朗资讯">郎朗资讯</a></li>
-                                    <li><a href="" title="媒体报道">媒体报道</a></li>
-                                    <li><a href="" title="公益活动">公益活动</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="index.php" title="合作伙伴">合作伙伴</a>
-                                <ul>
-                                    <li><a href="" title="门诊列表">门诊列表</a></li>
-                                    <li><a href="" title="门诊详情">门诊详情</a></li>
-                                    <li><a href="" title="交通指引">交通指引</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="index.php" title="辅助功能">辅助功能</a>
-                                <ul>
-                                    <li><a href="" title="公众号指引">公众号指引</a></li>
-                                    <li><a href="" title="交通指南">交通指南</a></li>
-                                    <li><a href="" title="在线客服">在线客服</a></li>
-                                    <li><a href="" title="一键拨号">一键拨号</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="index.php" title="联系我们">联系我们</a>
-                                <ul>
-                                    <li><a href="" title="联系我们">联系我们</a></li>
-                                    <li><a href="" title="加入我们">加入我们</a></li>
-                                    <li><a href="" title="在线留言">在线留言</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-    </div>
+    <!-- 头部 start -->
+    <?php include('header.php')?>
+    <!-- 头部 start -->
     <!-- 幻灯片 start -->
     <div id="slide-wrap">
         <div class="slide-content">
@@ -281,77 +202,10 @@
         </section>
     </div>
     <!-- 咨询模块 end -->
-    <footer>
-        <div class="container">
-            <div class="clearfix">
-                <div class="pull-left">
-                    <address class="footer-contact-info">
-                        <h5>朗朗医疗投资有限公司</h5>
-                        <p>集团总部热线 ： <a href="tel:4000-890-608" title="4000-890-608">4000-890-608</a></p>
-                        <p>集团总部地址 : 广东省深圳市南山区高新南一道3号富诚大厦三楼</p>
-                    </address>
-                    <ul class="share clearfix">
-                        <a href="" class="sing-share">
-                            <p>
-                                <img src="images/code.jpg" alt="">
-                            </p>
-                            <!-- <i class="fa fa-weibo" aria-hidden="true"></i> -->
-                            <i class="iconfont icon-weibo"></i>
-                        </a>
-                        <a href="" class="wechart-share">
-                            <p>
-                                <img src="images/code.jpg" alt="">
-                            </p>
-                            <!-- <i class="fa fa-weixin" aria-hidden="true"></i> -->
-                            <i class="iconfont icon-weixin"></i>
-                        </a>
-                    </ul>
-                </div>
-                <div class="pull-right">
-                    <ul class="footer-menu clearfix">
-                        <dl>
-                            <dt><a href="" title="走进郎朗">走进郎朗</a></dt>
-                            <dd><a href="" title="郎朗简介">郎朗简介</a></dd>
-                            <dd><a href="" title="郎朗优势">郎朗优势</a></dd>
-                            <dd><a href="" title="企业荣誉">企业荣誉</a></dd>
-                            <dd><a href="" title="团队风采">团队风采</a></dd>
-                        </dl>
-                        <dl>
-                            <dt><a href="" title="资讯动态">资讯动态</a></dt>
-                            <dd><a href="" title="行业动态">行业动态</a></dd>
-                            <dd><a href="" title="郎朗资讯">郎朗资讯</a></dd>
-                            <dd><a href="" title="媒体报道">媒体报道</a></dd>
-                            <dd><a href="" title="公益活动">公益活动</a></dd>
-                        </dl>
-                        <dl>
-                            <dt><a href="" title="合作伙伴">合作伙伴</a></dt>
-                            <dd><a href="" title="门诊列表">门诊列表</a></dd>
-                            <dd><a href="" title="门诊详情">门诊详情</a></dd>
-                            <dd><a href="" title="交通指引">交通指引</a></dd>
-                        </dl>
-                        <dl>
-                            <dt><a href="" title="辅助功能">辅助功能</a></dt>
-                            <dd><a href="" title="公众号指引">公众号指引</a></dd>
-                            <dd><a href="" title="交通指南">交通指南</a></dd>
-                            <dd><a href="" title="在线客服">在线客服</a></dd>
-                            <dd><a href="" title="一键拨号">一键拨号</a></dd>
-                        </dl>
-                        <dl>
-                            <dt><a href="" title="联系我们">联系我们</a></dt>
-                            <dd><a href="" title="联系我们">联系我们</a></dd>
-                            <dd><a href="" title="加入我们">加入我们</a></dd>
-                            <dd><a href="" title="在线留言">在线留言</a></dd>
-                        </dl>
-                        <dl>
-                            <img src="images/code.jpg" alt="认真学习web前端">
-                            <p class="text-center">微信公众号</p>
-                        </dl>
-                    </ul>
-                </div>
-            </div>
-            <div id="copyright">@ 2005 - 2016 朗朗口腔医疗投资有限公司,版权所有 粤ICP各08130115号-1</div>
-        </div>
-    </footer>
+    
+    <!-- 底部 start -->
+    <?php include('footer.php')?>
+    <!-- 底部 end -->
     <script src="js/jquery.min.js"></script>
     <script src="js/swiper/js/swiper.min.js"></script>
     <script src="js/common.js"></script>
