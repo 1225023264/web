@@ -438,6 +438,37 @@ body > footer {
     // background-size: contain;
 }
 
+
+// .aa {
+//     background-color: #dc261b;
+//     .bb { font-size: 18px;}
+// }
+
+/* 自动分列 */
+.news-row-wrap {
+    // 超出隐藏
+    overflow: hidden;
+    // @extend .aa;
+    // .col-item { float: left; }
+    .row-wrap-col { @extend %clearfix; }
+    div[class^=col-item] { 
+        float: left; 
+        @include webkit(box-sizing, border-box);
+    }
+    &.gutter-15 { 
+        div[class^=col-item]{ padding: 0 15px; }
+        .row-wrap-col { margin: 0 -15px; }
+    }
+    .col-item-3 { width: 25%; }
+    .col-item-4 {
+        // float: left;
+        width: 33.33333%;
+    }
+    .col-item-6 { width: 50%; }
+}
+// .news-row-wrap > div[class=col-item-4] { float: left; }
+// .news-row-wrap > div[class^=col-item] { float: left; }
+
 // clearfix 清除浮动
 .clearfix:after {
     content: ".";

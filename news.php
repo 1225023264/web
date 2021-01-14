@@ -31,7 +31,21 @@
     
     <!-- 内容 start-->
     <div class="container">
-        <div>内容区</div>
+        <div class="news-row-wrap gutter-15">
+            <!-- <div class="bb">111</div> -->
+            <div class="row-wrap-col">
+                <div class="col-item-4">
+                    <img src="images/pic-001.jpg" alt="" width="100%">
+                </div>
+                <div class="col-item-4">
+                    <img src="images/pic-001.jpg" alt="" width="100%">
+                </div>
+                <div class="col-item-4">
+                    <img src="images/pic-001.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- 内容 end-->
     

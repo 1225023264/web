@@ -251,7 +251,7 @@
                 // console.log(req.data)
                 // 字符串
                 // 处理数据
-                let ul = '<ul class="clearfix">'
+                let ul = '<ul>'
                 // [data, data, data]
                 req.data.forEach(item=> {
                     // console.log(item)

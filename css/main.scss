@@ -58,6 +58,7 @@
 // 图文列表
 .info-list {
     padding: 0 45px;
+    ul { @extend %clearfix; }
     figure {
         float: left;
         width: 33.33333%;

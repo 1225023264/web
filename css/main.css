@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.info-list ul {
+  height: 1%; }
+  .info-list ul:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
 #slide-wrap {
   position: relative;
   overflow: hidden; }
