@@ -108,25 +108,27 @@ function loadNewsData(params) {
             // console.log(req)
             let data = req.data
 
-            let itemHtml = `<div class="news-wrap"><div class="box clearfix">`
+            let itemHtml = `<div class="news-row-wrap gutter-15 index-news-list padding-top-73 padding-bottom-102"><div class="row-wrap-col">`
 
             data.forEach(item => {
                 let time = item.time.split(' ');
                 // console.log(time)
 
-                itemHtml += `<div class="item">
+                itemHtml += `<div class="col-item-3"><div class="item">
                                 <div class="img-cover" style="background-image: url(${item.imgUrl})">
-                                    <img src="images/blank/indexNews.png" alt="${item.title}">
+                                    <img src="images/blank/indexNews.png" alt="${item.title}" width="100%">
                                 </div>
-                                <h4 class="title">${item.title}</h4>
-                                <time datetime="${item.time}" pubdate="${time[0]}">${time[0]}</time>
-                                <i class="line"></i>
-                                <p class="dec">${item.dec}</p>
-                                <a href="" class="link-more border-none">
-                                    查看更多
-                                    <i class="iconfont icon-iconset0416"></i>
-                                </a>
-                            </div>`
+                                <div class="figure-content padding-top-24">
+                                    <h4 class="title">${item.title}</h4>
+                                    <time datetime="${item.time}" pubdate="${time[0]}">${time[0]}</time>
+                                    <i class="line"></i>
+                                    <p class="dec">${item.dec}</p>
+                                    <a href="" class="link-more">
+                                        查看更多
+                                        <i class="iconfont icon-iconset0416"></i>
+                                    </a>
+                                </div>
+                            </div></div>`
             });
                     
             itemHtml += `</div></div>`

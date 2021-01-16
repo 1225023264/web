@@ -50,7 +50,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="index.php" title="合作伙伴">合作伙伴</a>
+                            <a href="parthen.php" title="合作伙伴">合作伙伴</a>
                             <ul>
                                 <li><a href="" title="门诊列表">门诊列表</a></li>
                                 <li><a href="" title="门诊详情">门诊详情</a></li>
