@@ -9,6 +9,8 @@
     margin: 0 auto;
 }
 
+body > header { background-color: #ffffff;}
+
 // float
 .pull-left { float: left; }
 .pull-right { float: right; }
@@ -24,6 +26,9 @@
 // position
 .opposite { position: relative; }
 .definitely { position: absolute; }
+
+// background-color
+.bg-color-f7 { background-color: #f7f7f7; }
 
 // header
 .logo {
@@ -411,6 +416,7 @@ body > footer {
 /* 栏目 */
 .category-menu {
     border-bottom: 1px solid #f1f1f1;
+    background-color: #ffffff;
     li { 
         float: left; 
         padding-right: 18px;
@@ -518,6 +524,9 @@ body > footer {
         background-color: $color-main;
         color: #ffffff;
     }
+    &.shop-module {
+        a { background-color: #eeeeee; }
+    }
 }
 
 // clearfix 清除浮动
@@ -533,7 +542,7 @@ body > footer {
 .clearfix { display: block; }
 
 // for循环定义  padding  偏移值
-@for $i from 1 through 110 {
+@for $i from 1 through 125 {
     .padding-top-#{$i} { padding-top:(1px * $i); }
     .padding-bottom-#{$i} { padding-bottom:(1px * $i); }
 }

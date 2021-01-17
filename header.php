@@ -1,5 +1,5 @@
-<div class="container">
-    <header class="clearfix">
+<header>
+    <div class="container clearfix">
         <h1 class="logo pull-left">
             <a href="index.php" title="朗朗口腔" target="_blank">
                 <img src="./images/logo.jpg" alt="朗朗口腔">
@@ -52,7 +52,7 @@
                         <li>
                             <a href="parthen.php" title="合作伙伴">合作伙伴</a>
                             <ul>
-                                <li><a href="" title="门诊列表">门诊列表</a></li>
+                                <li><a href="shop.php" title="门诊列表">门诊列表</a></li>
                                 <li><a href="" title="门诊详情">门诊详情</a></li>
                                 <li><a href="" title="交通指引">交通指引</a></li>
                             </ul>
@@ -78,5 +78,5 @@
                 </nav>
             </div>
         </div>
-    </header>
-</div>
+    </div>
+</header>

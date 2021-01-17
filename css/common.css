@@ -21,6 +21,9 @@
   width: 1200px;
   margin: 0 auto; }
 
+body > header {
+  background-color: #ffffff; }
+
 .pull-left {
   float: left; }
 
@@ -44,6 +47,9 @@
 
 .definitely {
   position: absolute; }
+
+.bg-color-f7 {
+  background-color: #f7f7f7; }
 
 .logo {
   margin-top: 30px;
@@ -362,7 +368,8 @@ body > footer {
 
 /* 栏目 */
 .category-menu {
-  border-bottom: 1px solid #f1f1f1; }
+  border-bottom: 1px solid #f1f1f1;
+  background-color: #ffffff; }
   .category-menu li {
     float: left;
     padding-right: 18px; }
@@ -450,6 +457,8 @@ body > footer {
   .pagination span {
     background-color: #21b8c6;
     color: #ffffff; }
+  .pagination.shop-module a {
+    background-color: #eeeeee; }
 
 .clearfix:after {
   content: ".";
@@ -1126,3 +1135,93 @@ body > footer {
 
 .padding-bottom-110 {
   padding-bottom: 110px; }
+
+.padding-top-111 {
+  padding-top: 111px; }
+
+.padding-bottom-111 {
+  padding-bottom: 111px; }
+
+.padding-top-112 {
+  padding-top: 112px; }
+
+.padding-bottom-112 {
+  padding-bottom: 112px; }
+
+.padding-top-113 {
+  padding-top: 113px; }
+
+.padding-bottom-113 {
+  padding-bottom: 113px; }
+
+.padding-top-114 {
+  padding-top: 114px; }
+
+.padding-bottom-114 {
+  padding-bottom: 114px; }
+
+.padding-top-115 {
+  padding-top: 115px; }
+
+.padding-bottom-115 {
+  padding-bottom: 115px; }
+
+.padding-top-116 {
+  padding-top: 116px; }
+
+.padding-bottom-116 {
+  padding-bottom: 116px; }
+
+.padding-top-117 {
+  padding-top: 117px; }
+
+.padding-bottom-117 {
+  padding-bottom: 117px; }
+
+.padding-top-118 {
+  padding-top: 118px; }
+
+.padding-bottom-118 {
+  padding-bottom: 118px; }
+
+.padding-top-119 {
+  padding-top: 119px; }
+
+.padding-bottom-119 {
+  padding-bottom: 119px; }
+
+.padding-top-120 {
+  padding-top: 120px; }
+
+.padding-bottom-120 {
+  padding-bottom: 120px; }
+
+.padding-top-121 {
+  padding-top: 121px; }
+
+.padding-bottom-121 {
+  padding-bottom: 121px; }
+
+.padding-top-122 {
+  padding-top: 122px; }
+
+.padding-bottom-122 {
+  padding-bottom: 122px; }
+
+.padding-top-123 {
+  padding-top: 123px; }
+
+.padding-bottom-123 {
+  padding-bottom: 123px; }
+
+.padding-top-124 {
+  padding-top: 124px; }
+
+.padding-bottom-124 {
+  padding-bottom: 124px; }
+
+.padding-top-125 {
+  padding-top: 125px; }
+
+.padding-bottom-125 {
+  padding-bottom: 125px; }
