@@ -32,16 +32,17 @@
     
     <!-- 内容 start-->
     <div class="container">
-        <div class="shop-wrap padding-top-82">
+        <div class="public-welfare padding-top-82">
             <div class="item">
                 <div class="img-wrap">
-                    <a href="" title="威之远口腔种植牙中心"><img src="images/pic016.jpg" alt="威之远口腔种植牙中心" width="100%"></a>
+                    <a href="" title="商业城公益捐赠活动"><img src="images/pic021.jpg" alt="商业城公益捐赠活动" width="100%"></a>
                 </div>
                 <div class="content">
                     <div class="figure-content">
-                        <h4 class="title">威之远口腔种植牙中心</h4>
+                        <time datetime="2018-12-12 12:00:03" pubdate="2018-12-12">2018-12-12</time>
+                        <h4 class="title">商业城公益捐赠活动</h4>
                         <i class="line"></i>
-                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                        <p class="dec">朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣...</p>
                         <a href="" class="link-more">
                             查看更多
                             <i class="iconfont icon-iconset0416"></i>
@@ -51,14 +52,14 @@
             </div>
             <div class="item">
                 <div class="img-wrap">
-                    <span class="shop-logo"><img src="images/pic017.jpg" alt="威之远口腔种植牙中心" width="100%"></span>
-                    <a href="" title="威之远口腔种植牙中心"><img src="images/pic019.jpg" alt="威之远口腔种植牙中心" width="100%"></a>
+                    <a href="" title="商业城公益捐赠活动"><img src="images/pic022.jpg" alt="商业城公益捐赠活动" width="100%"></a>
                 </div>
                 <div class="content">
                     <div class="figure-content">
-                        <h4 class="title">威之远口腔种植牙中心</h4>
+                        <time datetime="2018-12-12 12:00:03" pubdate="2018-12-12">2018-12-12</time>
+                        <h4 class="title">商业城公益捐赠活动</h4>
                         <i class="line"></i>
-                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                        <p class="dec">朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣...</p>
                         <a href="" class="link-more">
                             查看更多
                             <i class="iconfont icon-iconset0416"></i>
@@ -68,14 +69,31 @@
             </div>
             <div class="item">
                 <div class="img-wrap">
-                    <span class="shop-logo"><img src="images/pic018.jpg" alt="威之远口腔种植牙中心" width="100%"></span>
-                    <a href="" title="威之远口腔种植牙中心"><img src="images/pic020.jpg" alt="威之远口腔种植牙中心" width="100%"></a>
+                    <a href="" title="商业城公益捐赠活动"><img src="images/pic021.jpg" alt="商业城公益捐赠活动" width="100%"></a>
                 </div>
                 <div class="content">
                     <div class="figure-content">
-                        <h4 class="title">威之远口腔种植牙中心</h4>
+                        <time datetime="2018-12-12 12:00:03" pubdate="2018-12-12">2018-12-12</time>
+                        <h4 class="title">商业城公益捐赠活动</h4>
                         <i class="line"></i>
-                        <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                        <p class="dec">朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣...</p>
+                        <a href="" class="link-more">
+                            查看更多
+                            <i class="iconfont icon-iconset0416"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrap">
+                    <a href="" title="商业城公益捐赠活动"><img src="images/pic022.jpg" alt="商业城公益捐赠活动" width="100%"></a>
+                </div>
+                <div class="content">
+                    <div class="figure-content">
+                        <time datetime="2018-12-12 12:00:03" pubdate="2018-12-12">2018-12-12</time>
+                        <h4 class="title">商业城公益捐赠活动</h4>
+                        <i class="line"></i>
+                        <p class="dec">朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣...</p>
                         <a href="" class="link-more">
                             查看更多
                             <i class="iconfont icon-iconset0416"></i>

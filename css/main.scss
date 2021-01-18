@@ -221,60 +221,6 @@
 }
 
 // /* news-wrap */
-// .news-wrap {
-//     padding-top: 73px;
-//     padding-bottom: 102px;
-//     overflow: hidden;
-//     .box {
-//         // display: flex;
-//         margin-left: -15px;
-//         margin-right: -15px;
-//     }
-//     .item { 
-//         // flex: 1; 
-//         float: left;
-//         width: 25%;
-//         padding: 0 15px;
-//         @include webkit(box-sizing, border-box)
-//     }
-//     img { 
-//         width: 100%; 
-//         display: block;
-//     }
-//     .title {
-//         padding-top: 25px;
-//         font-size: 18px;
-//         @include ell(1);
-//     }
-//     time {
-//         display: block;
-//         padding: 11px 0 13px;
-//         color: $text-gray;
-//     }
-//     .line {
-//         display: block;
-//         width: 50px;
-//         border: 1px solid #d9d9d9;
-//     }
-//     .dec {
-//         padding-top: 15px;
-//         margin-bottom: 22px;
-//         line-height: 22px;
-//         color: $text-gray;
-//         @include ell(3);
-//     }
-//     .link-more {
-//         opacity: .4;
-//         filter: alpha(opacity = 40);
-//     }
-// }
-
-// /* index.php - news */
-// .index-news-list {
-//     padding-top: 73px;
-//     padding-bottom: 102px;
-// }
-
 
 /* news.php */
 .news-list {
@@ -364,4 +310,41 @@
             margin-top: -34px;
         }
     }
+}
+
+/* 公益活动 */
+.public-welfare {
+    @extend .shop-wrap;
+    .item {
+        background-color: transparent;
+        margin-bottom: 100px;
+        &:nth-child(2n) {
+            .content { left: 0; }
+        }
+    }
+    .content {
+        position: absolute;
+        top: 73px;
+        right: 0;
+        bottom: 0;
+        // width: 54.3%;
+        width: -webkit-calc(50% + 53px);
+        padding: 51px 64px 39px 51px;
+        background-color: #ffffff;
+        time { padding: 0 0 11px; }
+        .title { 
+            font-size: 24px; 
+            margin-bottom: 19px;
+        }
+        .line { border-color: $color-main; }
+        &::after { display: none; }
+    }
+    .dec {
+        font-size: 14px;
+        line-height: 30px;
+        padding-top: 29px;
+        margin-bottom: 24px;
+        @include ell(3);
+    }
+    
 }
