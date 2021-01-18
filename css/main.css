@@ -1,7 +1,7 @@
 @charset "UTF-8";
-.info-list ul, .shop-wrap .item, .public-welfare .item {
+.info-list ul, .shop-wrap .item, .public-welfare .item, .content-wrap {
   height: 1%; }
-  .info-list ul:after, .shop-wrap .item:after, .public-welfare .item:after {
+  .info-list ul:after, .shop-wrap .item:after, .public-welfare .item:after, .content-wrap:after {
     content: ".";
     display: block;
     height: 0;
@@ -331,3 +331,40 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden; }
+
+/* 百度地图 */
+.baidu-map {
+  margin-top: 80px;
+  width: 100%;
+  height: 400px; }
+
+.content-wrap {
+  padding-top: 100px; }
+  .content-wrap .info {
+    float: left;
+    width: 400px;
+    padding: 37px 0;
+    background-color: #f9f9f9;
+    text-align: center; }
+  .content-wrap .title {
+    margin-bottom: 29px;
+    font-size: 24px; }
+  .content-wrap .telphone {
+    display: inline-block;
+    padding: 0 25px;
+    margin-top: 10px;
+    margin-bottom: 29px;
+    background-color: #21b8c6;
+    color: #ffffff;
+    line-height: 44px;
+    font-size: 18px;
+    border-radius: 50px; }
+  .content-wrap span {
+    display: block; }
+  .content-wrap strong {
+    color: #21b8c6; }
+  .content-wrap p {
+    margin-bottom: 20px;
+    line-height: 20px; }
+    .content-wrap p:last-child {
+      margin-bottom: 0; }

@@ -67,9 +67,9 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="index.php" title="联系我们">联系我们</a>
+                            <a href="contact.php" title="联系我们">联系我们</a>
                             <ul>
-                                <li><a href="" title="联系我们">联系我们</a></li>
+                                <li><a href="contact.php" title="联系我们">联系我们</a></li>
                                 <li><a href="" title="加入我们">加入我们</a></li>
                                 <li><a href="" title="在线留言">在线留言</a></li>
                             </ul>
