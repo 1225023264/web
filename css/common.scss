@@ -24,7 +24,7 @@ body > header { background-color: #ffffff;}
 .hide { display: none; }
 
 // position
-.opposite { position: relative; }
+.opposite { position: relative;  }
 .definitely { position: absolute; }
 
 // background-color
@@ -465,12 +465,17 @@ body > footer {
         div[class^=col-item]{ padding: 0 15px; }
         .row-wrap-col { margin: 0 -15px; }
     }
+    &.gutter-16 { 
+        div[class^=col-item]{ padding: 0 16px; }
+        .row-wrap-col { margin: 0 -16px; }
+    }
     .col-item-3 { width: 25%; }
     .col-item-4 {
         // float: left;
         width: 33.33333%;
     }
     .col-item-6 { width: 50%; }
+    .col-item-12 { width: 100%; }
 }
 // .news-row-wrap > div[class=col-item-4] { float: left; }
 // .news-row-wrap > div[class^=col-item] { float: left; }

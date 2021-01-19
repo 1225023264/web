@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./font/iconfont/iconfont.css">
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=PlhFWpA02aoURjAOpnWcRGqw7AI8EEyO"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=YVvpY3X0UuzV1OcpmPvOd32qBgCxGSKY"></script>
 </head>
 
 <body>
@@ -55,6 +55,45 @@
                     www.langlangdental.com
                 </p>
             </div>
+            <div class="message-form">
+                <p class="title">合赢未来 · 共创伟业 Win-win cooperation for bright future</p>
+                <form action="">
+                    <div class="news-row-wrap gutter-16">
+                        <div class="row-wrap-col">
+                            <div class="col-item-4">
+                                <div class="input-item">
+                                    <input type="text" id="name" placeholder="姓名">
+                                </div>    
+                            </div>
+                            <div class="col-item-4">
+                                <div class="input-item">
+                                    <input type="text" id="mobile" placeholder="手机号">
+                                </div>    
+                            </div>
+                            <div class="col-item-4">
+                                <div class="input-item">
+                                    <input type="email" id="email" placeholder="邮箱">
+                                </div>    
+                            </div>
+                            <div class="col-item-12">
+                                <div class="input-item">
+                                    <textarea rows="5" id="text" placeholder="内容"></textarea>
+                                </div>  
+                            </div>
+                            <div class="col-item-4">
+                                <div class="input-item">
+                                    <input type="text" id="code" placeholder="验证码">
+                                </div>    
+                            </div>
+                            <div class="col-item-4">
+                                <!-- src中的图片是后台返回回来的一个链接地址 -->
+                                <img src="images/message-code.jpg" alt=""> 
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" onclick="checkForm()">提交</button>
+                </form>
+            </div>
         </div>
     </div>
     <!-- 内容 end-->
@@ -64,6 +103,47 @@
     <!-- 底部 start -->
     <?php include('footer.php')?>
     <!-- 底部 end -->
+    <script>
+    function checkForm() {
+        // alert(111111)
+        let name = document.getElementById('name');
+        let mobile = document.getElementById('mobile');
+        let email = document.getElementById('email');
+        let text = document.getElementById('text');
+        let code = document.getElementById('code');
+
+        // if (!name.value || name.value == '') {
+        //     alert('姓名不能为空！！')
+        //     return false;
+        // }
+        if (!name.value) {
+            alert('姓名不能为空！！')
+            return false;
+        }
+        if (!mobile.value) {
+            alert('手机号码不能为空！！')
+            return false; 
+        } 
+        if(!(/^1[3-9]\d{9}$/.test(mobile.value))){ 
+            alert("手机号码有误，请重新输入");  
+            return false; 
+        } 
+        // if (!email.value) {
+        //     alert('姓名不能为空！！')
+        //     return false;
+        // }
+        // if (!text.value) {
+        //     alert('姓名不能为空！！')
+        //     return false;
+        // }
+        // if (!code.value) {
+        //     alert('姓名不能为空！！')
+        //     return false;
+        // }
+        // ajax
+        alert('111')
+    }
+    </script>
     
     <script>
         //创建和初始化地图函数：
@@ -128,4 +208,3 @@
 </body>
 
 </html>
-·
