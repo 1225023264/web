@@ -409,6 +409,7 @@
     textarea { 
         width: 100%;
         border: none;
+        outline: none;
         padding: 12px 17px;
         font-size: 14px;
         @include webkit(box-sizing, border-box);
@@ -428,5 +429,75 @@
         line-height: 40px;
         // 清除原有轮廓边框样式
         outline: none;
+    }
+}
+
+.jobs-banner {
+    padding: 108px 0 116px;
+    margin: 100px 0;
+    background: url(../images/jobs-bg.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    h4 {
+        font-size: 55.25px;
+        margin-bottom: 29px;
+    }
+    p {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    span {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
+
+.jobs-list {
+    header {
+        position: relative;
+        padding: 0 30px;
+        background-color: #f9f9f9;
+        border: 1px solid #ebebeb;
+        color: $text-gray;
+        line-height: 43px;
+        font-size: 14px;
+        span { padding-right: 60px; }
+        strong { 
+            color: $text-main; 
+            font-weight: bold;
+        }&::after {
+            content: '+';
+            position: absolute;
+            right: 26px;
+            color: black;
+            font-size: 24px;
+        }
+    }
+    section { margin-bottom: 10px; }
+    section:last-child { margin-bottom: 0; }
+    .show { 
+        .content {display: block; }
+        header::after { content: '-'; }
+    }
+    .content {
+        display: none;
+        padding: 24px 32px;
+        line-height: 30px;
+        color: #7c7c7c;
+    }
+    .button {
+        display: block;
+        width: 90px;
+        margin: 19px 0 8px;
+        background-color: $color-main;
+        line-height: 32px;
+        color: #fff;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .info {
+        a { color: #000; }
+        span { margin-right: 44px; }
     }
 }

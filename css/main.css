@@ -386,6 +386,7 @@
   .message-form textarea {
     width: 100%;
     border: none;
+    outline: none;
     padding: 12px 17px;
     font-size: 14px;
     -webkit-box-sizing: border-box;
@@ -412,3 +413,66 @@
     font-size: 16px;
     line-height: 40px;
     outline: none; }
+
+.jobs-banner {
+  padding: 108px 0 116px;
+  margin: 100px 0;
+  background: url(../images/jobs-bg.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  text-align: center; }
+  .jobs-banner h4 {
+    font-size: 55.25px;
+    margin-bottom: 29px; }
+  .jobs-banner p {
+    font-size: 24px;
+    margin-bottom: 14px; }
+  .jobs-banner span {
+    font-size: 14px;
+    text-transform: uppercase; }
+
+.jobs-list header {
+  position: relative;
+  padding: 0 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #ebebeb;
+  color: #a0a0a0;
+  line-height: 43px;
+  font-size: 14px; }
+  .jobs-list header span {
+    padding-right: 60px; }
+  .jobs-list header strong {
+    color: #010101;
+    font-weight: bold; }
+  .jobs-list header::after {
+    content: '+';
+    position: absolute;
+    right: 26px;
+    color: black;
+    font-size: 24px; }
+.jobs-list section {
+  margin-bottom: 10px; }
+.jobs-list section:last-child {
+  margin-bottom: 0; }
+.jobs-list .show .content {
+  display: block; }
+.jobs-list .show header::after {
+  content: '-'; }
+.jobs-list .content {
+  display: none;
+  padding: 24px 32px;
+  line-height: 30px;
+  color: #7c7c7c; }
+.jobs-list .button {
+  display: block;
+  width: 90px;
+  margin: 19px 0 8px;
+  background-color: #21b8c6;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px; }
+.jobs-list .info a {
+  color: #000; }
+.jobs-list .info span {
+  margin-right: 44px; }

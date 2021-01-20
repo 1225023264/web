@@ -96,6 +96,113 @@
             </div>
         </div>
     </div>
+    <div class="jobs-banner">
+        <h4>加入我们</h4>
+        <p>尽揽天下英才 共展宏图伟业</p>
+        <span>opportunity seldom joins us</span>
+    </div>
+    <div class="container">
+        <div class="jobs-list">
+            <section class="show">
+                <header>
+                    <span>工作地址：<strong>深圳</strong></span><span>工作岗位：<strong>财务</strong></span>
+                </header>
+                <div class="content">
+                    岗位职责：<br>
+                    负责公司日常财务的记录汇总，统计报表。淘宝天猫商城的日常发票开具，审核打单。有淘宝，京东，等等电商公司的日常工作经验优先，<br>
+                    任职资格<br>
+                    1，财务，会计专业，持有会计证；<br>
+                    2，具有一年以上工作经验；<br>
+                    3，熟悉操作财务软件，Excel，Word，ERP等办公软件；<br>
+                    4，工作认真，态度端正。<br>
+                    职能类别：会计 财务助理/文员<br>
+                    <a href="mailto:liangy@langlangdental.com" class="button">立即申请</a>
+                    <div class="info">
+                        <span>邮箱：<a href="mailto:liangy@langlangdental.com">liangy@langlangdental.com</a></span><span>手机：<a href="tel:186-6582-2617（梁小姐）">186-6582-2617（梁小姐）</a></span><span>座机：<a href="tel:0755-86566573转6019">0755-86566573转6019</a></span>            
+                    </div>
+                </div>
+            </section>
+            <section>
+                <header>
+                    <span>工作地址：<strong>深圳</strong></span><span>工作岗位：<strong>财务</strong></span>
+                </header>
+                <div class="content">
+                    岗位职责：<br>
+                    负责公司日常财务的记录汇总，统计报表。淘宝天猫商城的日常发票开具，审核打单。有淘宝，京东，等等电商公司的日常工作经验优先，<br>
+                    任职资格<br>
+                    1，财务，会计专业，持有会计证；<br>
+                    2，具有一年以上工作经验；<br>
+                    3，熟悉操作财务软件，Excel，Word，ERP等办公软件；<br>
+                    4，工作认真，态度端正。<br>
+                    职能类别：会计 财务助理/文员<br>
+                    <a href="mailto:liangy@langlangdental.com" class="button">立即申请</a>
+                    <div class="info">
+                        <span>邮箱：<a href="mailto:liangy@langlangdental.com">liangy@langlangdental.com</a></span><span>手机：<a href="tel:186-6582-2617（梁小姐）">186-6582-2617（梁小姐）</a></span><span>座机：<a href="tel:0755-86566573转6019">0755-86566573转6019</a></span>            
+                    </div>
+                </div>
+            </section>
+            <section>
+                <header>
+                    <span>工作地址：<strong>深圳</strong></span><span>工作岗位：<strong>财务</strong></span>
+                </header>
+                <div class="content">
+                    岗位职责：<br>
+                    负责公司日常财务的记录汇总，统计报表。淘宝天猫商城的日常发票开具，审核打单。有淘宝，京东，等等电商公司的日常工作经验优先，<br>
+                    任职资格<br>
+                    1，财务，会计专业，持有会计证；<br>
+                    2，具有一年以上工作经验；<br>
+                    3，熟悉操作财务软件，Excel，Word，ERP等办公软件；<br>
+                    4，工作认真，态度端正。<br>
+                    职能类别：会计 财务助理/文员<br>
+                    <a href="mailto:liangy@langlangdental.com" class="button">立即申请</a>
+                    <div class="info">
+                        <span>邮箱：<a href="mailto:liangy@langlangdental.com">liangy@langlangdental.com</a></span><span>手机：<a href="tel:186-6582-2617（梁小姐）">186-6582-2617（梁小姐）</a></span><span>座机：<a href="tel:0755-86566573转6019">0755-86566573转6019</a></span>            
+                    </div>
+                </div>
+            </section>
+            <section>
+                <header>
+                    <span>工作地址：<strong>深圳</strong></span><span>工作岗位：<strong>财务</strong></span>
+                </header>
+                <div class="content">
+                    岗位职责：<br>
+                    负责公司日常财务的记录汇总，统计报表。淘宝天猫商城的日常发票开具，审核打单。有淘宝，京东，等等电商公司的日常工作经验优先，<br>
+                    任职资格<br>
+                    1，财务，会计专业，持有会计证；<br>
+                    2，具有一年以上工作经验；<br>
+                    3，熟悉操作财务软件，Excel，Word，ERP等办公软件；<br>
+                    4，工作认真，态度端正。<br>
+                    职能类别：会计 财务助理/文员<br>
+                    <a href="mailto:liangy@langlangdental.com" class="button">立即申请</a>
+                    <div class="info">
+                        <span>邮箱：<a href="mailto:liangy@langlangdental.com">liangy@langlangdental.com</a></span><span>手机：<a href="tel:186-6582-2617（梁小姐）">186-6582-2617（梁小姐）</a></span><span>座机：<a href="tel:0755-86566573转6019">0755-86566573转6019</a></span>            
+                    </div>
+                </div>
+            </section>
+            <section>
+                <header>
+                    <span>工作地址：<strong>深圳</strong></span><span>工作岗位：<strong>财务</strong></span>
+                </header>
+                <div class="content">
+                    岗位职责：<br>
+                    负责公司日常财务的记录汇总，统计报表。淘宝天猫商城的日常发票开具，审核打单。有淘宝，京东，等等电商公司的日常工作经验优先，<br>
+                    任职资格<br>
+                    1，财务，会计专业，持有会计证；<br>
+                    2，具有一年以上工作经验；<br>
+                    3，熟悉操作财务软件，Excel，Word，ERP等办公软件；<br>
+                    4，工作认真，态度端正。<br>
+                    职能类别：会计 财务助理/文员<br>
+                    <a href="mailto:liangy@langlangdental.com" class="button">立即申请</a>
+                    <div class="info">
+                        <span>邮箱：<a href="mailto:liangy@langlangdental.com">liangy@langlangdental.com</a></span><span>手机：<a href="tel:186-6582-2617（梁小姐）">186-6582-2617（梁小姐）</a></span><span>座机：<a href="tel:0755-86566573转6019">0755-86566573转6019</a></span>            
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="pagination padding-top-120">
+            <a href="javascript: void(0)">1</a><span>2</span><a href="javascript: void(0)">3</a><a href="javascript: void(0)">4</a><a href="javascript: void(0)">5</a><a href="javascript: void(0)">6</a>
+        </div>
+    </div>
     <!-- 内容 end-->
     
 
