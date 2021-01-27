@@ -102,8 +102,8 @@
         <span>opportunity seldom joins us</span>
     </div>
     <div class="container">
-        <div class="jobs-list" id="jobsList" onclick="aaa()">
-            <section class="show">
+        <div class="jobs-list" id="jobsList">
+            <section>
                 <header>
                     <div class="mark" data-type="mark"></div>
                     <span>工作地址：<strong>深圳</strong></span><span>工作岗位：<strong>财务</strong></span>
@@ -218,27 +218,12 @@
 
     <script>    
     // jobs内容显示隐藏
-    /**
-     * 1、标签内嵌  如果和获取dom对象方式同时存在时会被覆盖
-     */
-    function aaa() {
-        alert(1111)
-    }
-    /**
-     * 2、获取DOM对象，传统绑定 绑定覆盖前一个  如果子元素需要绑定很多东西的话,不要使用这种方式，消耗很大性能，占内存，建议用事件注册的方式做
-     */
     let jobsList = document.getElementById('jobsList');
-    jobsList.onclick = function(){
-        alert(22222)
-    }
-    jobsList.onclick = function(){
-        alert(33333)
-    }
     /**
      * 3、事件注册 = 事件委托  不会被其他绑定方式影响，依次执行  用事件注册的方式来做，子元素不用绑定事件，只绑定父元素一个事件，然后替换子元素就可以了，父级不用替换，永远只有一个东西
      */
     jobsList.addEventListener('click', function(a){
-        console.log(a.target.tagName)
+        // console.log(a.target.tagName)
         let target = a.target
         let targetType = target.getAttribute('data-type');
         let targetName = target.tagName.toLowerCase()
@@ -246,19 +231,15 @@
         // alert(targetName)
         if (targetType == 'mark' && targetName == 'div') {
             hasClassName = target.parentNode.parentNode.className
-            console.log(hasClassName)
+            // console.log(hasClassName)
             if (hasClassName) {
                 target.parentNode.parentNode.className = ''
             } else {
                 target.parentNode.parentNode.className = 'show'
             }
-            alert(targetName)
+            // alert(targetName)
         }
     })
-    jobsList.addEventListener('click', function(){
-        alert(55555)
-    })
-
 
 
     // 表单验证
