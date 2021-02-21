@@ -24,7 +24,7 @@
    padding: 0;
    border: 0;
    font-size: 100%;
-   font: inherit;
+   /* font: inherit; */
    vertical-align: baseline;
  }
  /* HTML5 display-role reset for older browsers */
@@ -100,6 +100,7 @@
   a {
     background-color: transparent;
     text-decoration: none;
+    color: #010101;
   }
   
   /**
@@ -119,7 +120,7 @@
   
   b,
   strong {
-    font-weight: bolder;
+    font-weight: bold;
   }
   
   /**

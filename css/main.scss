@@ -510,3 +510,66 @@
         cursor: pointer;
     }
 }
+
+#article-content {
+    padding: 0 85px;
+    header {
+        padding: 83px 0 30px;
+        border-bottom: 1px solid #ececec;
+        text-align: center;
+        .title {
+            margin-bottom: 19px;
+            font-size: 30px;
+        }
+        span {
+            margin: 0 9px;
+            color: $text-gray;
+        }
+    }
+    section {
+        p {
+            padding: 18px 0;
+            font-size: 15px;
+            color: $text-main;
+            line-height: 35px;
+            text-indent: 2em;
+        }
+        img {
+            max-width: 100%;    // 图片最大为100%
+        }
+    }
+    footer {
+        .link-more {
+            margin: 65px auto 73px;
+            border-color: #e2e2e2;
+            line-height: 29px;
+            color: $text-gray;
+            @include webkit(transition, all .5s ease 0s);
+            &:hover {
+                color: #fff;
+                border-color: $color-main;
+            }
+        }
+    }
+}
+.related {
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    display: flex;
+    line-height: 38px;
+    li { flex: 1; }
+    .icon {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        margin: 0 5px -4px;
+        background-image: url(../images/icon001.jpg);
+        background-repeat: no-repeat;
+    }
+    li:first-child { 
+        i { background-position: left top; }
+    }
+    li:last-child { 
+        i { background-position: right top; }
+    }
+}

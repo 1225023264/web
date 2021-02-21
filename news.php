@@ -44,7 +44,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -61,7 +61,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -78,7 +78,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -95,7 +95,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -112,7 +112,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -129,7 +129,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -146,7 +146,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -163,7 +163,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -180,7 +180,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -197,7 +197,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -214,7 +214,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
@@ -231,7 +231,7 @@
                             <time datetime="2016-09-27 12:00:03" pubdate="2016-09-27">2016-09-27</time>
                             <i class="line"></i>
                             <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                            <a href="" class="link-more border-none">
+                            <a href="newsDetailed.php" class="link-more border-none">
                                 查看更多
                                 <i class="iconfont icon-iconset0416"></i>
                             </a>
