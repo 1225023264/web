@@ -512,6 +512,7 @@
 }
 
 #article-content {
+    position: relative;
     padding: 0 85px;
     header {
         padding: 83px 0 30px;
@@ -533,6 +534,9 @@
             color: $text-main;
             line-height: 35px;
             text-indent: 2em;
+            strong {
+                font-weight: bold;
+            }
         }
         img {
             max-width: 100%;    // 图片最大为100%

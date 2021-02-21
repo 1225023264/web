@@ -486,6 +486,7 @@
   cursor: pointer; }
 
 #article-content {
+  position: relative;
   padding: 0 85px; }
   #article-content header {
     padding: 83px 0 30px;
@@ -503,6 +504,8 @@
     color: #010101;
     line-height: 35px;
     text-indent: 2em; }
+    #article-content section p strong {
+      font-weight: bold; }
   #article-content section img {
     max-width: 100%; }
   #article-content footer .link-more {

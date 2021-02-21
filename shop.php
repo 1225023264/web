@@ -42,7 +42,7 @@
                         <h4 class="title">威之远口腔种植牙中心</h4>
                         <i class="line"></i>
                         <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                        <a href="" class="link-more">
+                        <a href="shopDetailed.php" class="link-more">
                             查看更多
                             <i class="iconfont icon-iconset0416"></i>
                         </a>
@@ -59,7 +59,7 @@
                         <h4 class="title">威之远口腔种植牙中心</h4>
                         <i class="line"></i>
                         <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                        <a href="" class="link-more">
+                        <a href="shopDetailed.php" class="link-more">
                             查看更多
                             <i class="iconfont icon-iconset0416"></i>
                         </a>
@@ -76,7 +76,7 @@
                         <h4 class="title">威之远口腔种植牙中心</h4>
                         <i class="line"></i>
                         <p class="dec">朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
-                        <a href="" class="link-more">
+                        <a href="shopDetailed.php" class="link-more">
                             查看更多
                             <i class="iconfont icon-iconset0416"></i>
                         </a>
